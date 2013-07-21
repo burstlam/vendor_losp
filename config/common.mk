@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
 
@@ -79,7 +83,6 @@ PRODUCT_PACKAGES += \
     DashClock \
     SlimFileManager \
     SlimCenter \
-    LatinIME \
     SlimIRC
 
 # Extra tools
