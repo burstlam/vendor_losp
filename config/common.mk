@@ -12,29 +12,29 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/slim/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/slim/prebuilt/common/bin/50-slim.sh:system/addon.d/50-slim.sh \
-    vendor/slim/prebuilt/common/bin/99-backup.sh:system/addon.d/99-backup.sh \
-    vendor/slim/prebuilt/common/etc/backup.conf:system/etc/backup.conf
+    vendor/losp/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/losp/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/losp/prebuilt/common/bin/50-slim.sh:system/addon.d/50-slim.sh \
+    vendor/losp/prebuilt/common/bin/99-backup.sh:system/addon.d/99-backup.sh \
+    vendor/losp/prebuilt/common/etc/backup.conf:system/etc/backup.conf
 
 # SLIM-specific init file
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/etc/init.local.rc:root/init.slim.rc
+    vendor/losp/prebuilt/common/etc/init.local.rc:root/init.losp.rc
 
 # Copy latinime for gesture typing
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/losp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # Compcache/Zram support
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/slim/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
+    vendor/losp/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/losp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
 # Audio Config for DSPManager
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
-#LOCAL SLIM CHANGES  - END
+    vendor/losp/prebuilt/common/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
+#LOCAL CHANGES  - END
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -42,21 +42,21 @@ PRODUCT_COPY_FILES += \
 
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/etc/mkshrc:system/etc/mkshrc \
-    vendor/slim/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
+    vendor/losp/prebuilt/common/etc/mkshrc:system/etc/mkshrc \
+    vendor/losp/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
 
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/slim/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
-    vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
+    vendor/losp/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/losp/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
+    vendor/losp/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Workaround for NovaLauncher zipalign fails
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+    vendor/losp/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/losp/prebuilt/hdpi/bootanimation_$(TARGET_SCREEN_WIDTH)_$(TARGET_SCREEN_HEIGHT).zip:system/media/bootanimation.zip
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
@@ -80,10 +80,7 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    DashClock \
-    SlimFileManager \
-    SlimCenter \
-    SlimIRC
+    DashClock
 
 # Extra tools
 PRODUCT_PACKAGES += \
@@ -92,34 +89,32 @@ PRODUCT_PACKAGES += \
     mke2fs \
     tune2fs
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/slim/overlay/dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/slim/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/losp/overlay/dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/losp/overlay/common
 
 # T-Mobile theme engine
-include vendor/slim/config/themes_common.mk
+include vendor/losp/config/themes_common.mk
 
 # Versioning System
-# Weekly build.7.5
-PRODUCT_VERSION_MAJOR = 4.2.2
+PRODUCT_VERSION_MAJOR = ALPHA
 PRODUCT_VERSION_MINOR = build
-PRODUCT_VERSION_MAINTENANCE = 7.5
-ifdef SLIM_BUILD_EXTRA
-    SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
+PRODUCT_VERSION_MAINTENANCE = 0.1
+ifdef LOSP_BUILD_EXTRA
+    LOSP_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
-ifndef SLIM_BUILD_TYPE
-    SLIM_BUILD_TYPE := UNOFFICIAL
-    PLATFORM_VERSION_CODENAME := UNOFFICIAL
-    SLIM_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
+ifndef LOSP_BUILD_TYPE
+    LOSP_BUILD_TYPE := EXPERIMENTAL
+    PLATFORM_VERSION_CODENAME := EXPERIMENTAL
+    LOSP_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 endif
 
 # Set all versions
-SLIM_VERSION := Slim-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(SLIM_BUILD_TYPE)$(SLIM_POSTFIX)
-SLIM_MOD_VERSION := Slim-$(SLIM_BUILD)-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(SLIM_BUILD_TYPE)$(SLIM_POSTFIX)
+LOSP_VERSION := LOSP-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(LOSP_BUILD_TYPE)$(LOSP_POSTFIX)
+LOSP_MOD_VERSION := 
 
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
-    slim.ota.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE) \
-    ro.slim.version=$(SLIM_VERSION) \
-    ro.modversion=$(SLIM_MOD_VERSION) \
+    ro.losp.version=$(LOSP_VERSION) \
+    ro.modversion=$(LOSP_MOD_VERSION) \
     ro.product.locale.language=zh \
     ro.product.locale.region=CN
