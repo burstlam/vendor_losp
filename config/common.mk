@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
-    vendor/losp/prebuilt/bootanimation/bootanimation_$(TARGET_SCREEN_WIDTH)_$(TARGET_SCREEN_HEIGHT).zip:system/media/bootanimation.zip
+    vendor/losp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
