@@ -26,6 +26,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
+# Copy phoneloc files
+PRODUCT_COPY_FILES += \
+    vendor/losp/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
+    vendor/losp/prebuilt/common/usr/share/phoneloc.dat:system/usr/share/phoneloc.dat
+
 # Compcache/Zram support
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/bin/compcache:system/bin/compcache \
@@ -73,7 +78,8 @@ PRODUCT_PACKAGES += \
     Galaxy4 \
     LiveWallpapersPicker \
     PhaseBeam \
-    LightLauncher
+    LightLauncher \
+    CMFileManager
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
