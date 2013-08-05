@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
+# Google Pinyin IME
+PRODUCT_COPY_FILES += \
+    vendor/losp/prebuilt/common/app/GooglePinyin.apk:system/app/GooglePinyin.apk
+
 # Copy phoneloc files
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
