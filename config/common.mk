@@ -22,9 +22,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/etc/init.local.rc:root/init.losp.rc
 
-# Copy latinime for gesture typing
+# Copy libs for Google Pinyin
 PRODUCT_COPY_FILES += \
-    vendor/losp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/losp/prebuilt/common/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
+    vendor/losp/prebuilt/common/lib/libjni_delight.so:system/lib/libjni_delight.so \
+    vendor/losp/prebuilt/common/lib/libjni_googlepinyinime_5.so:system/lib/libjni_googlepinyinime_5.so \
+    vendor/losp/prebuilt/common/lib/libjni_googlepinyinime_latinime_5.so:system/lib/libjni_googlepinyinime_latinime_5.so \
+    vendor/losp/prebuilt/common/lib/libjni_hmm_shared_engine.so:system/lib/libjni_hmm_shared_engine.so
 
 # Google Pinyin IME
 PRODUCT_COPY_FILES += \
