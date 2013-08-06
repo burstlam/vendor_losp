@@ -39,6 +39,32 @@ PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
     vendor/losp/prebuilt/common/usr/share/phoneloc.dat:system/usr/share/phoneloc.dat
 
+# Gapps stuff
+PRODUCT_COPY_FILES += \
+    vendor/losp/prebuilt/gapps/app/GmsCore.apk:system/app/GmsCore.apk \
+    vendor/losp/prebuilt/gapps/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+    vendor/losp/prebuilt/gapps/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
+    vendor/losp/prebuilt/gapps/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
+    vendor/losp/prebuilt/gapps/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
+    vendor/losp/prebuilt/gapps/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
+    vendor/losp/prebuilt/gapps/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
+    vendor/losp/prebuilt/gapps/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
+    vendor/losp/prebuilt/gapps/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
+    vendor/losp/prebuilt/gapps/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+    vendor/losp/prebuilt/gapps/app/Phonesky.apk:system/app/Phonesky.apk \
+    vendor/losp/prebuilt/gapps/etc/g.prop:system/etc/g.prop \
+    vendor/losp/prebuilt/gapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+    vendor/losp/prebuilt/gapps/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+    vendor/losp/prebuilt/gapps/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/losp/prebuilt/gapps/etc/permissions/features.xml:system/etc/permissions/features.xml \
+    vendor/losp/prebuilt/gapps/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
+    vendor/losp/prebuilt/gapps/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+    vendor/losp/prebuilt/gapps/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+    vendor/losp/prebuilt/gapps/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/losp/prebuilt/gapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/losp/prebuilt/gapps/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/losp/prebuilt/gapps/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so
+
 # Compcache/Zram support
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/bin/compcache:system/bin/compcache \
