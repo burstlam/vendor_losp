@@ -10,6 +10,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
