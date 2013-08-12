@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
 
 # Gapps stuff
 PRODUCT_COPY_FILES += \
-    vendor/losp/prebuilt/gapps/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/losp/prebuilt/gapps/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/losp/prebuilt/gapps/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/losp/prebuilt/gapps/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
@@ -54,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/gapps/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/losp/prebuilt/gapps/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/losp/prebuilt/gapps/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-    vendor/losp/prebuilt/gapps/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/losp/prebuilt/gapps/etc/g.prop:system/etc/g.prop \
     vendor/losp/prebuilt/gapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/losp/prebuilt/gapps/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
