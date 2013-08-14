@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
 
 # Gapps stuff
 PRODUCT_COPY_FILES += \
-    vendor/losp/prebuilt/gapps/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/losp/prebuilt/gapps/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/losp/prebuilt/gapps/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/losp/prebuilt/gapps/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
