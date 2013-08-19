@@ -111,8 +111,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/losp/overlay/common
 include vendor/losp/config/themes_common.mk
 
 # Versioning System
-PRODUCT_VERSION_MAJOR = BETA
-PRODUCT_VERSION_MAINTENANCE = 1.05
+PRODUCT_VERSION_MAJOR = Release
+PRODUCT_VERSION_MAINTENANCE = 1.1
 ifdef LOSP_BUILD_EXTRA
     LOSP_POSTFIX := -$(LOSP_BUILD_EXTRA)
 endif
