@@ -113,7 +113,7 @@ include vendor/losp/config/themes_common.mk
 
 # Versioning System
 PRODUCT_VERSION_MAJOR = RELEASE
-PRODUCT_VERSION_MAINTENANCE = 1.1
+PRODUCT_VERSION_MAINTENANCE = 1.2
 ifdef LOSP_BUILD_EXTRA
     LOSP_POSTFIX := -$(LOSP_BUILD_EXTRA)
 endif
