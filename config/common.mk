@@ -118,12 +118,7 @@ ifdef LOSP_BUILD_EXTRA
     LOSP_POSTFIX := -$(LOSP_BUILD_EXTRA)
 endif
 ifndef LOSP_BUILD_TYPE
-# To perform an EXPERIMENTAL build, run "touch .exp" at source root
-    ifeq (exp, $(shell if [ -f .exp ]; then echo "exp"; else echo ""; fi;))
-        LOSP_BUILD_TYPE := EXPERIMENTAL
-    else
-        LOSP_BUILD_TYPE := JELLYBEAN
-    endif
+    LOSP_BUILD_TYPE := JELLYBEAN
 endif
 
 PLATFORM_VERSION_CODENAME := JELLYBEAN
