@@ -113,15 +113,21 @@ include vendor/losp/config/themes_common.mk
 
 # Versioning System
 PRODUCT_VERSION_MAJOR = RELEASE
-PRODUCT_VERSION_MAINTENANCE = 1.2
+PRODUCT_VERSION_MAINTENANCE = 1.3
 ifdef LOSP_BUILD_EXTRA
     LOSP_POSTFIX := -$(LOSP_BUILD_EXTRA)
 endif
 ifndef LOSP_BUILD_TYPE
-    LOSP_BUILD_TYPE := JELLYBEAN
-    PLATFORM_VERSION_CODENAME := JELLYBEAN
-    LOSP_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
+# To perform an EXPERIMENTAL build, run "touch .exp" at source root
+    ifeq (exp, $(shell if [ -f .exp ]; then echo "exp"; else echo ""; fi;))
+        LOSP_BUILD_TYPE := EXPERIMENTAL
+    else
+        LOSP_BUILD_TYPE := JELLYBEAN
+    endif
 endif
+
+PLATFORM_VERSION_CODENAME := JELLYBEAN
+LOSP_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 
 # Set all versions
 LOSP_VERSION := LOSP-$(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_MAINTENANCE)-$(LOSP_BUILD)-$(LOSP_BUILD_TYPE)$(LOSP_POSTFIX)
