@@ -127,3 +127,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(LOSP_MOD_VERSION) \
     ro.product.locale.language=zh \
     ro.product.locale.region=CN
+
+ADDITIONAL_BUILD_PROPERTIES += \
+    persist.omh.enabled=true
