@@ -159,6 +159,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
     slim.ota.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE) \
     ro.slim.version=$(SLIM_VERSION) \
-    ro.modversion=$(SLIM_MOD_VERSION)
+    ro.modversion=$(SLIM_MOD_VERSION) \
+    ro.product.locale.language=zh \
+    ro.product.locale.region=CN
+
+ADDITIONAL_BUILD_PROPERTIES += \
+    persist.omh.enabled=true
 
 -include vendor/slim/sepolicy/sepolicy.mk
