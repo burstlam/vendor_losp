@@ -94,6 +94,12 @@ PRODUCT_PACKAGES += \
     LightLauncher \
     CMFileManager
 
+# DSPManager
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
+
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     DashClock
