@@ -56,6 +56,11 @@ PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/losp/prebuilt/common/bin/sysinit:system/bin/sysinit
 
+# Enable Xbox 360 and Ps3 Controller support
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
+    frameworks/base/data/keyboards/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl
+
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/losp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
