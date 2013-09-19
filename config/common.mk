@@ -1,4 +1,5 @@
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
+DATE = $(shell date -u +%Y%m%d)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
@@ -112,13 +113,12 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/losp/overlay/common
 include vendor/losp/config/themes_common.mk
 
 # Versioning System
-PRODUCT_VERSION_MAJOR = RELEASE
-PRODUCT_VERSION_MAINTENANCE = $(shell date +"%y"|rev|cut -c-1|rev).$(shell date +"%m"|sed -e 's/^0//' -e 's/ 0/ /g').$(shell date +"%d"|sed -e 's/^0//' -e 's/ 0/ /g')
+PRODUCT_VERSION_MAJOR = JB-MR2
 
 PLATFORM_VERSION_CODENAME := JELLYBEAN
 
 # Set all versions
-LOSP_VERSION := LOSP-$(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_MAINTENANCE)-$(LOSP_BUILD)
+LOSP_VERSION := SLIM-REMIX-$(PRODUCT_VERSION_MAJOR)-$(DATE)-$(LOSP_BUILD)-BURST-KERNEL-KANG
 LOSP_MOD_VERSION := $(LOSP_VERSION)
 
 PRODUCT_PROPERTY_OVERRIDES += \
