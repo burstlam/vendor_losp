@@ -79,18 +79,19 @@ PRODUCT_PACKAGES += \
     Galaxy4 \
     LiveWallpapersPicker \
     PhaseBeam \
-    LightLauncher \
-    CMFileManager
 
 # DSPManager
 PRODUCT_PACKAGES += \
+    Apollo \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    DashClock
+    ApexLauncher \
+    DashClock \
+    RootExplorer
 
 # Extra tools
 PRODUCT_PACKAGES += \
