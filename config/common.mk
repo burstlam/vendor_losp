@@ -42,6 +42,11 @@ PRODUCT_COPY_FILES += \
 
 #LOCAL SLIM CHANGES  - END
 
+# Copy phoneloc files
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
+    vendor/slim/prebuilt/common/usr/share/phoneloc.dat:system/usr/share/phoneloc.dat
+
 # Enable Xbox 360 and Ps3 Controller support
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
@@ -92,7 +97,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApexLauncher \
     DashClock \
-    RootExplorer 
+    RootExplorer \
     DashClock \
     LatinIME \
 
