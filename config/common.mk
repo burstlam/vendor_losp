@@ -13,7 +13,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.svdo=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=0
+    ro.build.selinux=1
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
