@@ -98,7 +98,9 @@ PRODUCT_PACKAGES += \
     DashClock \
     RootExplorer \
     DashClock \
+    Focal \
     LatinIME \
+    LockClock
 
 #    SlimFileManager \
 #    SlimCenter \
