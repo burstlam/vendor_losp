@@ -74,8 +74,10 @@ PRODUCT_PACKAGES += \
     Camera \
     Development \
     SpareParts \
-    Superuser \
-    su
+#    Superuser \
+#    su
+
+
 
 # Optional packages
 PRODUCT_PACKAGES += \
