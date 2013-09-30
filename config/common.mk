@@ -98,13 +98,10 @@ PRODUCT_PACKAGES += \
     DashClock \
     RootExplorer \
     DashClock \
+    Firewall \
     Focal \
     LatinIME \
     LockClock
-
-#    SlimFileManager \
-#    SlimCenter \
-#    SlimIRC
 
 # Extra tools
 PRODUCT_PACKAGES += \
