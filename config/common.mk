@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
 
 #LOCAL SLIM CHANGES  - END
 
+# Disable excessive dalvik debug messages
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.debug.alloc=0
+
 # Copy phoneloc files
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
