@@ -74,6 +74,7 @@ SUPERUSER_EMBEDDED := true
 
 # Required packages
 PRODUCT_PACKAGES += \
+    BluetoothExt \
     Camera \
     Development \
     SpareParts \
