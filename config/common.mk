@@ -12,7 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=1
+    ro.build.selinux=0
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -68,6 +68,11 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/slim/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
+
+# prebuilt
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/common/xbin/sysro:system/xbin/sysro \
+    vendor/slim/prebuilt/common/xbin/sysrw:system/xbin/sysrw \
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
