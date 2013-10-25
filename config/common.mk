@@ -74,8 +74,10 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/xbin/sysro:system/xbin/sysro \
     vendor/slim/prebuilt/common/xbin/sysrw:system/xbin/sysrw \
 
-# Embed SuperUser
-SUPERUSER_EMBEDDED := true
+# superuser
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/common/xbin/su:system/xbin/su \
+    vendor/slim/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
 
 # Required packages
 PRODUCT_PACKAGES += \
