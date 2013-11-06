@@ -29,7 +29,7 @@ LOCAL_PATH := $(call my-dir)
 #include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ApexLauncher
+LOCAL_MODULE := NovaLauncher
 LOCAL_MODULE_OWNER := losp
 LOCAL_SRC_FILES := common/app/$(LOCAL_MODULE).apk
 LOCAL_MODULE_TAGS := optional
