@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
     RootExplorer \
     DashClock \
     Firewall \
-    Focal \
     LatinIME \
     LockClock
 
