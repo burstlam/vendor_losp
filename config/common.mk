@@ -92,6 +92,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     SlimCenter \
+    SlimFileManager \
     LatinIME \
     SlimIRC \
     BluetoothExt
@@ -144,7 +145,7 @@ endif
 # kitkat initial start
 PRODUCT_VERSION_MAJOR = 4.4
 PRODUCT_VERSION_MINOR = alpha
-PRODUCT_VERSION_MAINTENANCE = 1.1
+PRODUCT_VERSION_MAINTENANCE = 1.3
 ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
