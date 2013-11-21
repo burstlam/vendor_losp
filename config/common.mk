@@ -46,10 +46,8 @@ PRODUCT_COPY_FILES += \
 #LOCAL SLIM CHANGES  - END
 
 # Copy phoneloc files
-
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
-    vendor/slim/prebuilt/common/usr/share/phoneloc.dat:system/usr/share/phoneloc.dat
+    vendor/slim/prebuilt/common/media/mokee-phoneloc.dat:system/media/mokee-phoneloc.dat
 
 # Enable Xbox 360 and Ps3 Controller support
 PRODUCT_COPY_FILES += \
@@ -111,7 +109,6 @@ PRODUCT_PACKAGES += \
     NovaLauncher \
     RootExplorer \
     Firewall \
-    ScreenRecorder \
     LockClock
 
 # Extra tools
