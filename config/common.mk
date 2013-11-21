@@ -11,7 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=1
+    ro.build.selinux=0
 
 # Disable excessive dalvik debug messages
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -59,8 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Workaround for NovaLauncher zipalign fails
-PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+# PRODUCT_COPY_FILES += \
+#     vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
+    Launcher3 \
     SlimCenter \
     LatinIME \
     SlimIRC \
