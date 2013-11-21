@@ -88,14 +88,19 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf
 
-# Extra Optional packages
+# Extra Optional packages 1
 PRODUCT_PACKAGES += \
     Launcher3 \
-    SlimCenter \
-    SlimFileManager \
     LatinIME \
-    SlimIRC \
     BluetoothExt
+
+# Extra Optional packages
+PRODUCT_PACKAGES += \
+    NovaLauncher \
+    RootExplorer \
+    Firewall \
+    ScreenRecorder \
+    LockClock
 
 # Extra tools
 PRODUCT_PACKAGES += \
