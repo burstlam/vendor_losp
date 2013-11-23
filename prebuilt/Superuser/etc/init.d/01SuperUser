@@ -1,0 +1,64 @@
+#!/system/bin/sh
+
+bb="/system/xbin/busybox"
+
+ch_con() {
+	/system/bin/toolbox chcon u:object_r:system_file:s0 $1
+	chcon u:object_r:system_file:s0 $1
+}
+
+ui_print "*********************"
+ui_print "SuperSU installer    "
+ui_print "*********************"
+
+ui_print "- Mounting /system, /data and rootfs"
+$bb mount /system
+$bb mount /data
+$bb mount -o rw,remount /system /system
+$bb mount -o rw,remount / /
+
+ABI=$(cat /default.prop | grep ro.product.cpu.abi= | dd bs=1 skip=19 count=3)
+ABI2=$(cat /default.prop | grep ro.product.cpu.abi2= | dd bs=1 skip=20 count=3)
+
+ui_print "- Disabling OTA survival"
+chmod 0755 /system/bin/chattr
+system/bin/chattr -i /system/xbin/su
+system/bin/chattr -i /system/bin/.ext/.su
+system/bin/chattr -i /system/xbin/daemonsu
+system/bin/chattr -i /system/etc/insta
+
+ui_print "- Placing files"
+mkdir /system/bin/.ext
+cp /system/xbin/su /system/xbin/daemonsu
+cp /system/xbin/su /system/bin/.ext/.su
+echo 1 > /system/etc/.has_su_daemon
+echo 1 > /system/etc/.installed_su_daemon
+
+set_perm 0 0 0777 /system/bin/.ext
+set_perm 0 0 06755 /system/bin/.ext/.su
+set_perm 0 0 06755 /system/xbin/su
+set_perm 0 0 06755 /system/xbin/daemonsu
+set_perm 0 0 0755 /system/etc/install-recovery.sh
+set_perm 0 0 0755 /system/etc/init.d/99SuperSUDaemon
+set_perm 0 0 0644 /system/etc/.has_su_daemon
+set_perm 0 0 0644 /system/etc/.installed_su_daemon
+
+ch_con /system/bin/.ext/.su
+ch_con /system/xbin/su
+ch_con /system/xbin/daemonsu
+ch_con /system/etc/install-recovery.sh
+ch_con /system/etc/init.d/99SuperSUDaemon
+ch_con /system/etc/.has_su_daemon
+ch_con /system/etc/.installed_su_daemon
+
+# Nuking run once scripts
+#
+rm /system/etc/init.d/01SuperUser
+
+ui_print "- Unmounting /system and /data"
+$bb umount /system
+$bb umount /data
+
+ui_print "- Done !"
+exit 0
+
