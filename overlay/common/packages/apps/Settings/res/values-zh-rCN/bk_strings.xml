@@ -26,6 +26,7 @@
 
     <!-- Advanced settings -->
     <string name="advanced_options_settings_title">高级设置</string>
+    <string name="performance_settings_title">性能</string>
     <string name="chronus_title">锁屏天气设置</string>
 
     <!--Headers-->

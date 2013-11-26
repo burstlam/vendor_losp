@@ -119,7 +119,8 @@ PRODUCT_PACKAGES += \
     NovaLauncher \
     RootExplorer \
     Firewall \
-    LockClock
+    LockClock \
+    PerformanceControl
 
 # Extra tools
 PRODUCT_PACKAGES += \
