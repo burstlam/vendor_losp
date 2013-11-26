@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_log_stats_title">統計</string>
+    <string name="callStatsDetailTitle">呼叫統計詳情</string>
+
+    <string name="call_stats">呼叫統計</string>
+    <string name="call_stats_refresh">清除</string>
+    <string name="activity_title_call_stats">呼叫統計</string>
+
+    <string name="call_stats_nav_all">全部</string>
+    <string name="call_stats_nav_incoming">打入</string>
+    <string name="call_stats_nav_outgoing">撥出</string>
+    <string name="call_stats_nav_missed">未接</string>
+    <string name="call_stats_incoming">打入: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">撥出: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_missed">未接</string>
+    <string name="call_stats_missed_percent">未接: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">全部: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">全部: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">開始日期</string>
+    <string name="call_stats_filter_to">結束日期</string>
+    <string name="call_stats_filter_picker_title">過濾規則</string>
+
+    <string name="date_quick_selection">快速選取</string>
+    <string name="date_qs_currentmonth">本月</string>
+    <string name="date_qs_currentquarter">本季度</string>
+    <string name="date_qs_currentyear">本年</string>
+    <string name="date_qs_lastweek">上周</string>
+    <string name="date_qs_lastmonth">上月</string>
+    <string name="date_qs_lastquarter">上季度</string>
+    <string name="date_qs_lastyear">去年</string>
+
+    <string name="call_stats_date_filter">調整時間範圍</string>
+    <string name="call_stats_reset_filter">重置時間範圍</string>
+    <string name="call_stats_sort_by_duration">按通話時長排序</string>
+    <string name="call_stats_sort_by_count">按通話數量排序</string>
+    <string name="menu_add_to_blacklist">新增到黑名單</string>
+    <string name="toast_added_to_blacklist">%s 增加到黑名單.</string>
+
+    <!-- IP Call -->
+    <string name="dialer_ip_call_prefix_title">IP撥號前置</string>
+    <string name="dialer_ip_call_prefix_summary">點擊設定IP撥號前置</string>
+    <string name="dialer_ipcall_title">IP撥號</string>
+    <string name="dialer_ipcall_msg">尚未設定IP撥號前置。您想直接撥打此號碼嗎？</string>
+
+    <!-- Speed Dial -->
+    <string name="speeddial_menu">快速撥號</string>
+    <string name="speeddial_title">指定快速撥號？</string>
+    <string name="alert_add_speeddial_title">%s 沒有設定為快速撥號。是否立即指定？</string>
+    <string name="dont_remind_me_title">不再提醒我。</string>
+    <string name="speeddial_added">%1$s 的 %2$s 號碼 %3$s 已成功添加到快速撥號設定中，快速撥號鍵為 %4$s 。</string>
+    <string name="speeddial_undefined_title">未定義</string>
+    <string name="speeddial_undefined_summary">長按進行修改</string>
+</resources>

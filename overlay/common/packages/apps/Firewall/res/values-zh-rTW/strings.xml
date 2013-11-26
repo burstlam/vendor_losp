@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="app_name">防火牆</string>
+    <string name="title_enabled">防火牆已啟用</string>
+    <string name="title_disabled">防火牆已禁用</string>
+    <string name="showrules">顯示規則</string>
+    <string name="applyrules">應用規則</string>
+    <string name="saverules">保存規則</string>
+    <string name="applyrules2">應用 IPv6 規則</string>
+    <string name="purgerules">清空規則</string>
+    <string name="setpwd">設置密碼</string>
+    <string name="help">幫助</string>
+    <string name="close">關閉</string>
+    <string name="exit">退出</string>
+    <string name="fw_enabled">防火牆已啟用</string>
+    <string name="fw_disabled">防火牆已禁用</string>
+    <string name="log_enabled">日志已啟用</string>
+    <string name="log_disabled">日志已禁用</string>
+    <string name="log_was_enabled">日志已被啟用</string>
+    <string name="log_was_disabled">日志已被禁用</string>
+    <string name="ipv6_enabled">IPv6 已啟用</string>
+    <string name="ipv6_disabled">IPv6 未啟用</string>
+    <string name="ipv6_was_enabled">IPv6 已被啟用</string>
+    <string name="ipv6_was_disabled">IPv6 已被禁用</string>
+    <string name="log_cleared">日志已清除</string>
+    <string name="show_log">顯示日志</string>
+    <string name="clear_log">清除日志</string>
+    <string name="applying_rules">應用iptables規則。</string>
+    <string name="applyingipv6_rules">應用 ip6tables 規則。</string>
+    <string name="saving_rules">保存iptables規則。</string>
+    <string name="deleting_rules">刪除iptables規則。</string>
+    <string name="rules_applied">規則應用成功</string>
+    <string name="rules_saved">規則保存成功</string>
+    <string name="rules_deleted">規則刪除成功</string>
+    <string name="pass_titleset">設置密碼鎖定</string>
+    <string name="pass_titleget">需要密碼</string>
+    <string name="enterpass">輸入密碼：</string>
+    <string name="enternewpass">輸入新密碼（放空則刪除）：</string>
+    <string name="passdefined">密碼鎖定已設置</string>
+    <string name="passremoved">密碼鎖定已移除</string>
+    <string name="passerror">改變密碼鎖定出錯</string>
+    <string name="working">工作中……</string>
+    <string name="reading_apps">正在讀取安裝的程序</string>
+    <string name="please_wait">請稍等</string>
+    <string name="mode_header">模式：%s</string>
+    <string name="mode_whitelist">白名單（允許選中）</string>
+    <string name="mode_blacklist">黑名單（阻止選中）</string>
+    <string name="toast_bin_installed">防火牆：二進制文件已安裝！</string>
+    <string name="toast_enabled">防火牆：防火牆已啟用！</string>
+    <string name="toast_error_enabling">防火牆：啟用防火牆時出錯！</string>
+    <string name="toast_disabled">防火牆：防火牆已禁用！</string>
+    <string name="toast_error_disabling">防火牆：禁用用防火牆時出錯！</string>
+    <string name="set_custom_script">設置自定義腳本</string>
+    <string name="custom_script_defined">自定義腳本已定義</string>
+    <string name="custom_script_removed">自定義腳本已刪除</string>
+    <string name="custom_script_error">保存自定義腳本時出錯</string>
+    <string name="custom_script_info"><b>在這里輸入你的自定義腳本。</b>		\n<i>（放空則刪除）</i>		\n查看自定義腳本的更多信息，點擊 <a href="http://code.google.com/p/droidwall/wiki/CustomScripts"></a>.
+</string>
+    <string name="custom_script2_info">    	\n<b>自定義禁用腳本</b>    	\n在防火牆<b>被禁用</b>時執行的腳本：</string>
+    <string name="unsaved_changes">未保存更改</string>
+    <string name="unsaved_changes_message">有未保存更改。\n你想保存還是丟棄它們？</string>
+    <string name="apply">應用</string>
+    <string name="discard">丟棄</string>
+    <string name="help_dialog_text"><i>作者：Rodrigo Zechin Rosauro and updated by Jason Tschohl</i>		\n<i><a href="http://github.com/skullone/android_firewall">http://github.com/skullone/android_firewall</a></i>		\n
+		\n<i>防火牆</i> 是Linux上功能強大的<b>iptables</b>防火牆前端程序 <i>DroidWall</i> 的一個分支。
+		它可以讓你限定哪些程序可以訪問你的數據網絡。
+		\n如果你沒有不限流量的套餐或只是想延長電池使用時間，這將是一個完美的解決方案。
+		\n
+		\n<b>使用防火牆：</b>		\n<b>1.</b> 點擊<b>模式</b>切換 <i>白名單</i> 和 <i>黑名單</i> 模式。
+		\n<b>2.</b> 針對每一個接口，標記你想阻止或允許（取決於已選擇的模式）的程序。
+		\n<b>3.</b> 打開菜單啟用防火牆. 如果防火牆已啟用，只需要選擇<b>應用規則</b>。
+		\n規則將被保存并在你重啟手機后自動恢復。
+		\n如果你想檢查當前iptables規則，在菜單中選擇<b>顯示規則</b>。
+		\n
+		\n<b>桌面部件：</b>		\n為了快速啟用或禁用防火牆，添加防火牆桌面部件到主屏幕。
+		\n
+		\n<b>防火牆日志：</b>		\n如果你想看到哪些程序被防火牆阻止，打開菜單并啟用日志。
+		\n防火牆將會記錄每一個被阻止的程序. 你可以打開菜單并選擇 <b>更多 -> 顯示日志</b> 來檢查日志。
+		\n
+		\n<b>程序鎖：</b>		\n你可以使用菜單中的<b>設置密碼</b>選項來為防火牆設置密碼鎖。
+		\n若要移除密碼保護，只需要將它重置為空白。
+</string>
+    <string name="overwrite_rules">即將覆蓋現有規則，要繼續嗎？</string>
+    <string name="importsuccess">導入成功！</string>
+    <string name="importfailed">導入失敗！</string>
+    <string name="exportfailed">導出失敗！</string>
+    <string name="exportsuccess">導出成功！</string>
+    <string name="enterfilename">請輸入文件名</string>
+    <string name="new_app_installed">您安裝了一款需要網絡連接的應用</string>
+    <string name="notify_enabled">啟用通知</string>
+    <string name="notify_disabled">通知被禁用</string>
+    <string name="notify_was_enabled">通知已啟用</string>
+    <string name="notify_was_disabled">通知已啟用</string>
+    <string name="importrules">導入規則</string>
+    <string name="exportrules">導出規則</string>
+    <string name="managerulefiles">管理規則文件</string>
+    <string name="options">選項</string>
+    <string name="wifi">無線</string>
+    <string name="data">數據</string>
+    <string name="roaming">漫游</string>
+    <string name="clear">清除</string>
+    <string name="password_not_same">兩次輸入密碼不衕！請重新輸入。</string>
+    <string name="password_enter_again">請再次輸入密碼。</string>
+    <string name="profile_header">配置：%s</string>
+    <string name="defaultprofile">默認</string>
+    <string name="profile1">配置1</string>
+    <string name="profile2">配置2</string>
+    <string name="profile3">配置3</string>
+    <string name="profile4">配置4</string>
+    <string name="profile5">配置5</string>
+    <string name="pleasechoose">請選擇要創建或者修改的配置</string>
+    <string name="saveprofile">創建配置</string>
+    <string name="defaultsaved">默認配置保存成功！</string>
+    <string name="profile1saved">配置1 保存成功</string>
+    <string name="profile2saved">配置2 保存成功</string>
+    <string name="profile3saved">配置3 保存成功</string>
+    <string name="profile4saved">配置4 保存成功</string>
+    <string name="profile5saved">配置5 保存成功</string>
+    <string name="profileselect">請選擇要應用的配置</string>
+    <string name="profileapplied">已成功應用配置</string>
+    <string name="loadprofile">加載配置</string>
+    <string name="rulesoptions">規則管理</string>
+    <string name="profilesoptions">配置管理</string>
+    <string name="ipv6_title">IPv6 支持</string>
+    <string name="notifications_title">通知支持</string>
+    <string name="enableLog_title">啟用日志</string>
+    <string name="invert">反選</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" | "</string>
+    <string name="twofortyfouram_locale_menu_dontsave">取消</string>
+    <string name="twofortyfouram_locale_menu_help">幫助</string>
+    <string name="twofortyfouram_locale_menu_save">完成</string>
+    <string name="tasker_name">防火牆 - 計劃任務</string>
+    <string name="tasker_profile_disabled">計划任務已將防火牆關閉！</string>
+    <string name="search_name">搜索應用</string>
+    <string name="profilenames">編輯配置名</string>
+    <string name="vpn_enabled">已啟用 VPN 支持</string>
+    <string name="vpn_disabled">已禁用 VPN 支持</string>
+    <string name="vpn_title">VPN 支持</string>
+    <string name="vpn">VPN</string>
+    <string name="roaming_title">漫游支持</string>
+    <string name="usersettings">設置</string>
+    <string name="taskertoast_title">任務通知</string>
+    <string name="ipv6_summary">此選項啟用或禁用 IPv6 支持</string>
+    <string name="vpn_summary">此選項啟用或禁用 VPN 支持</string>
+    <string name="roaming_summary">此選項啟用或禁用漫游網絡支持</string>
+    <string name="taskertoast_summary">此選項啟用或禁用在配置文件改變時彈出計划任務通知</string>
+    <string name="log_summary">此選項啟用或禁用防火牆日志</string>
+    <string name="notification_summary">此選項啟用或禁用新安裝的需要網絡連接的應用的通知</string>
+    <string name="tasker_profile">計划任務已經改變了 防火牆 當前使用的配置文件</string>
+    <string name="apply_setting_changes">根據設置變更應用規則</string>
+    <string name="rules_export_successfully">規則導出成功</string>
+    <string name="rules_import_successfully">規則導入成功</string>
+    <string name="no_rules_file">打開 防火牆 目錄出錯。請先導出一個規則文件</string>
+    <string name="no_storage">打開 防火牆 目錄出錯。請先檢查您的SD卡是否已掛載或外部存儲是否可以用。</string>
+    <string name="file_deleted">文件已被刪除。</string>
+    <string name="widget_fail">無法禁用防火牆，因為設置了密碼保護</string>
+    <string name="simplewidget">開關部件</string>
+    <string name="statuswidget">菜單部件</string>
+    <string name="sdcard_title">Apps on SDCard支援</string>
+    <string name="sdcard_summary">設置後，每次開機後防火牆設定會在SDCARD掃描完成才套用，確保移到SDCARD上執行的程序能取得數據連接。注意這個設定會延後防火牆規則和計劃的執行.</string>
+
+
+    <!-- Fragment titles -->
+    <string name="firewall_fragment_title">防火牆</string>
+    <string name="log_fragment_title">日誌</string>
+    <string name="rules_fragment_title">檢視設定</string>
+    <string name="profiles_fragment_title">編輯設定檔</string>
+    <string name="help_fragment_title">幫助</string>
+    <string name="settings_fragment_title">設定</string>
+    
+</resources>

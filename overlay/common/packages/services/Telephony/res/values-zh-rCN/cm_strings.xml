@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="call_notif_unconditionalCF">启用无条件的来电转接</string>
+    <string name="call_notif_conditionalCF">启用有条件的来电转接</string>
+    <string name="call_notif_MOcall_forwarding">呼出电话已被转接</string>
+    <string name="call_notif_cugcall">在封闭用户组内通话</string>
+    <string name="call_notif_outgoing_barred">呼出电话被禁止</string>
+    <string name="call_notif_incoming_barred">来电被对方禁止</string>
+    <string name="call_notif_clir_suppression_rejected">自我号码抑制被网络拒绝</string>
+    <string name="call_notif_call_deflected">调用被对方转接</string>
+    <string name="call_notif_MTcall_forwarding">来电是被转接的</string>
+    <string name="call_notif_multipartycall">多方电话</string>
+    <string name="call_notif_callonhold_released">调用被对方释放</string>
+    <string name="call_notif_forwardcheckreceived">调用被转接</string>
+    <string name="call_notif_callconnectingect">调用正在通过显式调用转移进行连接</string>
+    <string name="call_notif_callconnectedect">调用已通过显式调用转移连接</string>
+
+    <!-- Advanced Settings -->
+    <string name="incall_vibration">通话震动</string>
+    <string name="vibrate_outgoing">接电话时震动</string>
+    <string name="vibrate_call_waiting">等待接通时震动</string>
+    <string name="vibrate_hangup">挂断时震动</string>
+    <string name="vibrate_45">每分钟震动</string>
+    <string name="vibrate_45_sum">打出电话时在每分钟的45秒时震动</string>
+    <string name="show_ssn_label">事件提醒</string>
+    <string name="show_ssn_summary">为通话处理相关的各种网络事件显示一个通知</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名单</string>
+    <string name="blacklist_summary_disabled">禁用</string>
+    <string name="blacklist_summary">来自黑名单中号码的来电会被拒绝</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">拒绝了一个来自 %s 的电话</string>
+    <string name="blacklist_notification_private_number">拒绝了一个来自私人号码的电话</string>
+    <string name="blacklist_notification_list_private">秘密</string>
+    <string name="blacklist_notification_unknown_number">拒绝了未知号码 %s</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 已拒绝</string>
+    <string name="unblock_number">解禁</string>
+
+</resources>

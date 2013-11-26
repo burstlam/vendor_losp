@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_add_to_calendar">添加日曆提醒</string>
+    <string name="button_close">關閉</string>
+    <string name="button_view">查看</string>
+    <string name="button_templates">模板</string>
+    <string name="type_to_reply_text_enter_to_send">鍵入信息</string>
+    <string name="toast_sending_message">信息發送中</string>
+    <string name="qm_quick_reply">回復</string>
+    <string name="qm_mark_read">已讀</string>
+    <string name="message_counter_separator">/</string>
+    <string name="pref_title_notification_privacy_mode_enabled">隱私模式</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">在信息通知內隱藏發件人與信息, 并衕時禁用 \'快速回復\'</string>
+    <string name="notification_single_title_privacy_mode">新信息</string>
+    <string name="notification_single_text_privacy_mode">1 條未讀信息</string>
+    <string name="notification_multiple_title_privacy_mode">新信息</string>
+    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> 條未讀信息</string>
+    <string name="notification_ticker_privacy_mode">收到了新信息</string>
+    <string name="pref_title_mms_notification_vibrate_pattern">震動形式</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">更改震動形式</string>
+    <string name="pref_title_mms_notification_vibrate_custom">自定義震動形式</string>
+    <string name="pref_text_mms_notification_vibrate_custom">格式為關/開 (毫秒為單位): 關, 開, 關, 開/u2026</string>
+    <string name="pref_quickmessage">快速回復</string>
+    <string name="pref_dark_theme_title">使用暗色主題</string>
+    <string name="pref_dark_theme_summary">如果未被選中，默認的 \'淡色\' 主題將會被使用</string>
+    <string name="pref_quickmessage_title">顯示彈出窗口</string>
+    <string name="pref_quickmessage_summary">收到短信時彈出快速信息對話框</string>
+    <string name="pref_wake_unlock_title">喚醒和解鎖</string>
+    <string name="pref_wake_unlock_summary">收到消息時喚醒和解鎖設備 (僅在非安全鎖定屏幕時有效)</string>
+    <string name="pref_close_all_title">全部關閉</string>
+    <string name="pref_close_all_summary">\'關閉\' 按鈕將關閉所有的消息</string>
+    <string name="prefs_templates_settings">短信模板</string>
+    <string name="pref_title_templates_manage">模板</string>
+    <string name="pref_summary_templates_manage">管理您的短信模板</string>
+    <string name="template_explanation">插入或修改模板文本并且可以畫一個手勢與它關聯.</string>
+    <string name="template_insert_hint">在此輸入模板文本</string>
+    <string name="template_empty_text">文本欄不能為空</string>
+    <string name="template_save">保存</string>
+    <string name="template_ctx_menu_title">動作</string>
+    <string name="template_edit">編輯</string>
+    <string name="template_delete">刪除</string>
+    <string name="template_list_title">模板</string>
+    <string name="template_new_title">新建模板</string>
+    <string name="template_insert">插入模板</string>
+    <string name="template_gesture_draw">在下面的空白處畫出您想關聯的手勢</string>
+    <string name="template_not_present_error">您沒有定義任何模板</string>
+    <string name="template_not_present_error_title">錯誤</string>
+    <string name="template_select">選擇一個模板</string>
+    <string name="template_confirm_dialog_title">確定刪除?</string>
+    <string name="gestures_already_present">一個相似的手勢已與另一個模板關聯</string>
+    <string name="select_template">選擇模板</string>
+    <string name="pref_title_templates_show_gesture">手勢</string>
+    <string name="pref_summary_templates_show_gesture">顯示手勢軌跡</string>
+    <string name="pref_title_template_gestures_sensitivity">手勢靈敏度</string>
+    <string name="pref_extra_settings">其他設置</string>
+    <string name="pref_title_unicode_stripping">除去 Unicode</string>
+    <string name="pref_unicode_stripping_leave_intact">保留所有字符</string>
+    <string name="pref_unicode_stripping_non_encodable">除去非可編碼字符</string>
+    <string name="pref_unicode_stripping_all">除去所有 Unicode 字符</string>
+    <string name="pref_title_enable_emojis">繪文字支持</string>
+    <string name="pref_summary_enable_emojis">開啟繪文字 (一套471個視覺情感符號) 的支持</string>
+    <string name="menu_insert_emoji">插入繪文字</string>
+    <string name="pref_title_enable_quick_emojis">快速繪文字按鈕</string>
+    <string name="pref_summary_enable_quick_emojis">在輸入框左側顯示一個快速訪問繪文字的按鈕</string>
+    <string name="pref_title_enable_softbank_encoding">SoftBank 繪文字</string>
+    <string name="pref_summary_enable_softbank_encoding">使用 SoftBank 繪文字編碼</string>
+    <string name="pref_title_mms_full_timestamp">完整時間戳</string>
+    <string name="pref_summary_mms_full_timestamp">在時間戳中顯示日期和時間</string>
+    <string name="pref_title_mms_use_sent_timestamp">原始時間戳</string>
+    <string name="pref_summary_mms_use_sent_timestamp">在時間戳中顯示發送時間而不是接收時間</string>
+    <string name="pref_title_input_type">軟鍵槃樣式</string>
+    <string name="pref_keyboard_emoji">顯示表情符號按鍵</string>
+    <string name="pref_keyboard_new_line">顯示回車鍵</string>
+    <string name="pref_keyboard_unknown">未知，請重新選擇</string>
+    <string name="pref_title_sms_split_counter">分割編號</string>
+    <string name="pref_summary_sms_split_counter">在分割的消息中加入編號，例如：(1/2)</string>
+    <string name="menu_insert_contact_info">插入聯系人信息</string>
+    <string name="cannot_find_contact">無法插入選中的聯系人信息</string>
+    <string name="insert_contact_info_positive_button">插入</string>
+    <string name="label_mms_push">彩信推送</string>
+    <string name="desc_mms_push">將彩信從發件箱推送到移動網絡</string>
+    
+     <!-- Gray hint displayed in the search field in Contacts when empty -->
+    <string name="search_bar_hint">"搜索聯系人"</string>
+    <string name="btn_ok">"確定"</string>
+    <string name="btn_cancel">"取消"</string>
+    <string name="select_all">"全選"</string>
+
+    <!-- Direct Call -->
+    <string name="direct_call_title">體感撥號</string>
+    <string name="direct_call_summary">手機放在耳邊時將撥打當前短信聯系者的電話</string>
+
+    <!-- Message Font size -->
+    <string name="pref_title_mms_message_font_size">消息字體大小</string>
+    <string name="pref_summary_mms_message_font_size">更改消息視圖中的字體大小</string>
+    <string name="pref_dialogtitle_mms_message_font_size">選擇字體大小</string>
+        <!-- Custom user-agent -->
+    <string name="pref_mms_ua_default_android">Android默認</string>
+    <string name="pref_mms_ua_nokia_n95">諾基亞 N95</string>
+    <string name="pref_mms_ua_iphone_3_0">iPhone (3.0)</string>
+    <string name="pref_mms_ua_blackberry_8800">黑莓 8800</string>
+    <string name="pref_mms_ua_sonyericsson_w800i">索尼愛立信 W800i</string>
+    <string name="pref_mms_ua_softbank_x01t">軟銀 X01T</string>
+    <string name="pref_mms_ua_softbank_myrmms">軟銀 MyrMMS</string>
+    <string name="pref_mms_ua_custom_option">自定義\u2026</string>
+    <string name="pref_title_mms_user_agent">用戶標識</string>
+    <string name="pref_summary_mms_user_agent">發送短信時偽裝手機型號</string>
+    <string name="pref_mms_user_agent_custom_set">用戶標識設定為:\n</string>
+
+    <!--Delay delivery-->
+    <string name="pref_title_delay_send">延遲發送</string>
+    <string name="pref_summary_delay_send">延遲發送短消息，在這期間你可以隨時取消發送。</string>
+    <string name="delay_duration_title">延遲時間</string>
+    <string name="delay_send_duration_options_entry_1">10 秒 (默認)</string>
+    <string name="delay_send_duration_options_entry_2">20 秒</string>
+    <string name="delay_send_duration_options_entry_3">30 秒</string>
+    <string name="delay_send_duration_options_entry_4">60 秒</string>
+    <string name="remaining_delay_time">該消息將在 &lt;font color="red"&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/font&gt; 秒后發送</string>
+    <string name="sent_countdown">短信發送倒計時</string>
+
+    <!-- Text area -->
+    <string name="pref_text_area_size_title">短信文本區域大小</string>
+    <string name="pref_text_area_size_summary">設置文本區域為 <xliff:g id="lines">%1$s</xliff:g> 行</string>
+     <!-- Multi-Part SMS -->
+    <string name="pref_title_sms_multi_part">短信分條發送</string>
+    <string name="pref_title_sms_multi_part_size">分條短信大小</string>
+    <string name="pref_summary_sms_multi_part_mms">超過160字符的文本信息將被當做彩信發送</string>
+    <string name="pref_summary_sms_multi_part">超過160字符的文本信息將被分條發送</string>
+    <string name="pref_summary_sms_multi_part_mms_size">文本信息將在分成 <xliff:g id="seg">%1$s</xliff:g> 段后轉換為彩信</string>
+    <!-- Split SMS -->
+    <string name="pref_title_sms_split">拆分短信</string>
+    <string name="pref_summary_sms_split">文本信息將會被拆分成最大160個字符的信息</string>
+    <!-- Setting item for folder to save MMS Attachments to -->
+    <string name="pref_title_save_location">附件保存文件夾</string>
+    <string name="pref_title_save_location_summary">設置保存附件的文件夾</string>
+     <!-- Multi Contact selector -->
+    <string name="pref_multi_select">快速選擇器</string>
+    <string name="pref_multi_select_summary">使用選擇框選擇多個聯系人S</string>
+    <string name="add_recipients">添加收件人</string>
+    <string name="groups_header">群組</string>
+    <string name="loading_recipients">正在載入聯系人和群組</string>
+    <string name="no_recipients">沒有可用的收件人</string>
+
+    <!-- Mms Breath -->
+    <string name="mms_breath">短信狀態欄呼吸效果</string>
+    <string name="mms_breath_summary">當有短信通知時在狀態欄顯示呼吸效果</string>
+
+    <string name="pref_char_settings">文本設置</string>
+
+    <!-- Avatar -->
+    <string name="hide_avatar">隱藏頭像</string>
+    <string name="hide_avatar_summary">在會話列表屏幕中隱藏頭像</string>
+
+     <!-- Message signature -->
+    <string name="msg_sig_title">短信簽名</string>
+    <string name="msg_sig_summary">設置一條自定義的短信簽名</string>
+    <string name="msg_sig_enter_text">請輸入簽名的文本</string>
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名單</string>
+    <string name="blacklist_summary_disabled">已禁用</string>
+    <string name="blacklist_summary">在黑名單目錄中的號碼發送來的短信將會被屏蔽</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">阻止了一條由 %s 發送的短信</string>
+    <string name="blacklist_notification_private_number">阻止了一條來自私人號碼的短信</string>
+    <string name="blacklist_notification_list_private">私人</string>
+    <string name="blacklist_notification_unknown_number">阻止了一條由陌生號碼 %s 發送的短信</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 條短信已被屏蔽</string>
+    <string name="unblock_number">解除屏蔽</string>
+
+    <!-- Blacklist management -->
+    <string name="add_to_blacklist">添加到黑名單中</string>
+    <string name="add_to_blacklist_message">未來由 %s 發送的所有短信都會被屏蔽</string>
+
+    <!-- Generic blacklist handling -->
+    <string name="alert_dialog_yes">是</string>
+    <string name="alert_dialog_no">否</string>
+</resources>

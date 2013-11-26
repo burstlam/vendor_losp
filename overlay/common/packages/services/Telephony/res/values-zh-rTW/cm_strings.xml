@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_notif_unconditionalCF">啟用無條件的來電轉接</string>
+    <string name="call_notif_conditionalCF">啟用有條件的來電轉接</string>
+    <string name="call_notif_MOcall_forwarding">呼出電話已被轉接</string>
+    <string name="call_notif_cugcall">在封閉用戶組內通話</string>
+    <string name="call_notif_outgoing_barred">呼出電話被禁止</string>
+    <string name="call_notif_incoming_barred">來電被對方禁止</string>
+    <string name="call_notif_clir_suppression_rejected">自我號碼抑制被網路拒絕</string>
+    <string name="call_notif_call_deflected">呼叫被對方轉接</string>
+    <string name="call_notif_MTcall_forwarding">來電是被轉接的</string>
+    <string name="call_notif_multipartycall">多方電話</string>
+    <string name="call_notif_callonhold_released">呼叫被對方釋放</string>
+    <string name="call_notif_forwardcheckreceived">呼叫被轉接</string>
+    <string name="call_notif_callconnectingect">呼叫正在通過顯式呼叫移轉進行連線</string>
+    <string name="call_notif_callconnectedect">呼叫已通過顯式呼叫移轉連線</string>
+
+    <!-- Advanced Settings -->
+    <string name="incall_vibration">通話震動</string>
+    <string name="vibrate_outgoing">對方接聽時震動</string>
+    <string name="vibrate_call_waiting">呼叫等待時震動</string>
+    <string name="vibrate_hangup">通話結束時震動</string>
+    <string name="vibrate_45">每分鐘震動</string>
+    <string name="vibrate_45_sum">呼出通話到達每分鐘的 45 秒時震動</string>
+    <string name="show_ssn_label">事件提醒</string>
+    <string name="show_ssn_summary">為通話處理相關的各種網絡事件顯示一個通知</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名單</string>
+    <string name="blacklist_summary_disabled">禁用</string>
+    <string name="blacklist_summary">來自黑名單中號碼的來電會被拒絕</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">拒絕了一個來自 %s 的電話</string>
+    <string name="blacklist_notification_private_number">拒絕了一個來自私人號碼的電話</string>
+    <string name="blacklist_notification_list_private">秘密</string>
+    <string name="blacklist_notification_unknown_number">拒絕了未知號碼 %s</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 已拒絕</string>
+    <string name="unblock_number">解禁</string>
+
+    <!-- Direct Call -->
+    <string name="direct_call_title">體感撥號</string>
+    <string name="direct_call_summary">手機放在耳邊時將撥打目前撥號器匯入的電話號碼</string>
+
+    <!-- IP Call -->
+    <string name="dialer_ipcall_settings_title">IP撥號</string>
+
+    <!-- SMSC-->
+    <string name="smsc_settings_title">資訊服務中心</string>
+    <string name="smsc_settings_summary">設定和獲得資訊服務中心號碼</string>
+    <string name="show_smscnum">察看資訊服務中心號碼</string>
+    <string name="smsc_number_invalid">資訊服務中心號碼已失效</string>
+    <string name="smsc_refresh">清除</string>
+    <string name="smsc_update">更新</string>
+
+</resources>

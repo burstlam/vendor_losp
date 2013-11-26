@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- The label for Smart capture. -->
+    <string name="pref_smart_capture_label">智能截圖</string>
+    <string name="pref_smart_capture_title">智能截圖</string>
+    <string name="pref_smart_capture_default">@string/setting_off_value</string>
+
+    <!-- Settings screen, Select Color effect title -->
+    <string name="pref_camera_coloreffect_title">色彩效果</string>
+
+    <!-- Settings screen, Color effect dialog radio button choices -->
+    <string name="pref_camera_coloreffect_entry_none">無</string>
+    <string name="pref_camera_coloreffect_entry_mono">單色</string>
+    <string name="pref_camera_coloreffect_entry_sepia">懷舊</string>
+    <string name="pref_camera_coloreffect_entry_negative">負片</string>
+    <string name="pref_camera_coloreffect_entry_solarize">過度曝光</string>
+    <string name="pref_camera_coloreffect_entry_posterize">海報</string>
+    <string name="pref_camera_coloreffect_entry_aqua">水底</string>
+    <string name="pref_camera_coloreffect_entry_emboss">浮雕</string>
+    <string name="pref_camera_coloreffect_entry_sketch">素描</string>
+    <string name="pref_camera_coloreffect_entry_neon">霓虹燈</string>
+    <string name="pref_camera_coloreffect_entry_pastel">油彩</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">馬賽克</string>
+    <string name="pref_camera_coloreffect_entry_redtint">紅色調</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">藍色調</string>
+    <string name="pref_camera_coloreffect_entry_greentint">綠色調</string>
+
+    <!-- Settings screen, JPEG Quality -->
+    <string name="pref_camera_jpeg_title">JPEG質量</string>
+
+    <!-- Settings screen, JPEG dialog radio button choices -->
+    <string name="pref_camera_jpeg_entry_super">無損</string>
+    <string name="pref_camera_jpeg_entry_high">高</string>
+    <string name="pref_camera_jpeg_entry_medium">中</string>
+    <string name="pref_camera_jpeg_entry_low">低</string>
+</resources>
