@@ -730,4 +730,8 @@
 
     <!-- Font size sample text -->
     <string name="font_size_sample">预览</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">显示CPU信息</string>
+    <string name="show_cpu_info_summary">显示当前CPU信息如温度等</string>
 </resources>
