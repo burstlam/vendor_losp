@@ -68,12 +68,22 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
 
-# Workaround for NovaLauncher zipalign fails
-# PRODUCT_COPY_FILES += \
-#     vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+# SuperSU 1.75
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/Superuser/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/slim/prebuilt/Superuser/bin/chattr:system/bin/chattr \
+    vendor/slim/prebuilt/Superuser/etc/has_su_daemon:system/etc/.has_su_daemon \
+    vendor/slim/prebuilt/Superuser/etc/installed_su_daemon:system/etc/.installed_su_daemon \
+    vendor/slim/prebuilt/Superuser/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/slim/prebuilt/Superuser/etc/install-recovery.sh:system/etc/install-recovery.sh \
+    vendor/slim/prebuilt/Superuser/xbin/su:system/xbin/su \
+    vendor/slim/prebuilt/Superuser/xbin/su:system/bin/.ext/.su \
+    vendor/slim/prebuilt/Superuser/xbin/su:system/xbin/daemonsu \
+    vendor/slim/prebuilt/common/xbin/sysro:system/xbin/sysro \
+    vendor/slim/prebuilt/common/xbin/sysrw:system/xbin/sysrw
 
 # Embed SuperUser
-SUPERUSER_EMBEDDED := true
+SUPERUSER_EMBEDDED := false
 
 # Required packages
 PRODUCT_PACKAGES += \
