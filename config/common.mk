@@ -68,6 +68,11 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
 
+# Don't export PS1 in /system/etc/mkshrc.
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/common/app/Term.apk:system/app/Term.apk \
+    vendor/slim/prebuilt/common/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+
 # SuperSU 1.75
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/Superuser/app/Superuser.apk:system/app/Superuser.apk \
@@ -116,6 +121,7 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
+    Apollo \
     NovaLauncher \
     RootExplorer \
     Firewall \
