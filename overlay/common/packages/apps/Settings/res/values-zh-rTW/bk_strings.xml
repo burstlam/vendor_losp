@@ -734,45 +734,5 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">顯示CPU信息</string>
     <string name="show_cpu_info_summary">顯示當前CPU信息如溫度等</string>
-    <!-- About device screen, Cpu info. -->
-    <string name="cpu_info">CPU</string>
-    <string name="mem_info">記憶體</string>
-    <string name="gpu_info">GPU</string>
-    <string name="chipset_info">晶片組</string>
-    <string name="device_rear_camera">後置鏡頭</string>
-    <string name="device_front_camera">前置鏡頭</string>
-    <string name="device_screen_resolution">屏模解析度</string>
-
-    <!-- Lock Gesture settings -->
-    <string name="unlock_set_unlock_gesture_title">手勢</string>
-    <string name="unlock_set_unlock_gesture_summary">安全性低、實驗性</string>
-    <string name="unlock_set_unlock_mode_gesture">手勢</string>
-    <string name="lockpassword_choose_your_gesture_header">繪制您的手勢</string>
-    <string name="lockpassword_confirm_your_gesture_header">確認您的手勢</string>
-    <string name="lockpassword_gesture_set_toast">手勢已設定</string>
-    <string name="lockgesture_change_lock_pattern_label">變更解鎖手勢</string>
-    <string name="lockgesture_change_lock_pin_label">變更解鎖 PIN</string>
-    <string name="lockgesture_need_to_unlock">確認已儲存的手勢</string>
-    <string name="lockgesture_need_to_unlock_wrong">請重試：</string>
-    <string name="lockgesture_recording_intro_header">繪制解鎖手勢：</string>
-    <string name="lockgesture_recording_intro_footer">按 MENU 獲得輔助說明。</string>
-    <string name="lockgesture_recording_inprogress">完成后松開手指。</string>
-    <string name="lockgesture_pattern_entered_header">手勢已記錄。</string>
-    <string name="lockgesture_need_to_confirm">再次繪制手勢進行確認：</string>
-    <string name="lockgesture_pattern_confirmed_header">您的新解鎖手勢：</string>
-    <string name="lockgesture_confirm_button_text">確認</string>
-    <string name="lockgesture_restart_button_text">重新繪制</string>
-    <string name="lockgesture_retry_button_text">重試</string>
-    <string name="lockgesture_continue_button_text">繼續</string>
-    <string name="lockgesture_settings_title">解鎖手勢</string>
-    <string name="lockgesture_settings_enable_title">需要解鎖手勢</string>
-    <string name="lockgesture_settings_enable_summary">必須繪制手勢才能解鎖屏幕</string>
-    <string name="lockgesture_settings_enable_visible_pattern_title">顯示手勢</string>
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">電源按鍵即時鎖定</string>
-    <string name="lockgesture_settings_choose_lock_pattern">設定解鎖手勢</string>
-    <string name="lockgesture_settings_change_lock_pattern">變更解鎖手勢</string>
-    <string name="lockgesture_settings_help_how_to_record">如何繪制解鎖手勢</string>
-    <string name="lockgesture_too_many_failed_confirmation_attempts_header">錯誤的嘗試次數過多！</string>
-    <string name="lockgesture_too_many_failed_confirmation_attempts_footer"><xliff:g id="NUMBER">%d</xliff:g> 秒后重試。</string>
 
 </resources>
