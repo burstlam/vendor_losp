@@ -798,4 +798,50 @@
     <string name="lock_numpad_random_off">关闭</string>
     <string name="lock_numpad_random_always">永远改变</string>
     <string name="lock_numpad_random_on_request">按需要</string>
+
+    <!--Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">当输入PIN/口令正确时自动解锁</string>
+
+    <!-- Lock before unlock -->
+    <string name="lock_before_unlock_title">安全解锁前显示滑块</string>
+    <string name="lock_before_unlock_summary">即使设置了锁屏口令也显示解锁滑块</string>
+
+    <!-- Lockscreen widget settings -->
+    <string name="lockscreen_widgets_title">小部件</string>
+    <string name="lockscreen_camera_widget_title">打开相机小部件</string>
+    <string name="lockscreen_camera_widget_summary">在锁定屏幕上显示安全摄像头部件</string>
+    <string name="lockscreen_maximize_widgets_title">最大化</string>
+    <string name="lockscreen_maximize_widgets_summary">屏幕打开时最大化/全屏显示部件</string>
+    <string name="lockscreen_disable_hints_title">禁用可用性显示</string>
+    <string name="lockscreen_disable_hints_summary">禁用锁屏小部件周围的光圈</string>
+    <string name="lockscreen_use_widget_container_carousel_title">立体锁屏动画</string>
+    <string name="lockscreen_use_widget_container_carousel_summary">在锁屏页面间切换时使用立体的锁屏动画</string>
+
+    <!-- Lock Gesture settings -->
+    <string name="lockgesture_change_lock_pattern_label">更改解锁手势</string>
+    <string name="lockgesture_change_lock_pin_label">更改解锁 PIN</string>
+    <string name="lockgesture_need_to_unlock">确认已保存的手势</string>
+    <string name="lockgesture_need_to_unlock_wrong">请重试：</string>
+    <string name="lockgesture_recording_intro_header">绘制解锁手势：</string>
+    <string name="lockgesture_recording_intro_footer">按 MENU 获得帮助。</string>
+    <string name="lockgesture_recording_inprogress">完成后松开手指。</string>
+    <string name="lockgesture_pattern_entered_header">手势已记录。</string>
+    <string name="lockgesture_need_to_confirm">再次绘制手势进行确认：</string>
+    <string name="lockgesture_pattern_confirmed_header">您的新解锁手势：</string>
+    <string name="lockgesture_confirm_button_text">确认</string>
+    <string name="lockgesture_restart_button_text">重新绘制</string>
+    <string name="lockgesture_retry_button_text">重试</string>
+    <string name="lockgesture_continue_button_text">继续</string>
+    <string name="lockgesture_settings_title">解锁手势</string>
+    <string name="lockgesture_settings_enable_title">需要解锁手势</string>
+    <string name="lockgesture_settings_enable_summary">必须绘制手势才能解锁屏幕</string>
+    <string name="lockgesture_settings_enable_visible_pattern_title">显示手势</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">电源按钮即时锁定</string>
+    <string name="lockgesture_settings_choose_lock_pattern">设置解锁手势</string>
+    <string name="lockgesture_settings_change_lock_pattern">更改解锁手势</string>
+    <string name="lockgesture_settings_help_how_to_record">如何绘制解锁手势</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_header">错误的尝试次数过多！</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_footer"><xliff:g id="NUMBER">%d</xliff:g> 秒后重试。</string>
+
 </resources>
