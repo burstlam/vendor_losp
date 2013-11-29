@@ -760,4 +760,43 @@
     <string name="listview_anticipate_overshoot_interpolator">延遲反彈</string>
     <string name="listview_bounce_interpolator">終點彈球</string>
 
+    <!-- Basic Numbers -->
+    <string name="two">二</string>
+    <string name="three">三</string>
+    <string name="four">四</string>
+    <string name="five">五</string>
+    <string name="six">六</string>
+
+    <string name="quiet_hours_auto_sms_group">自動回覆</string>
+    <string name="quiet_hours_auto_sms_title">信息</string>
+    <string name="quiet_hours_auto_sms_call_title">來電</string>
+    <string name="quiet_hours_auto_string_title">系統自動回覆</string>
+    <string name="quiet_hours_auto_string_explain">免打擾時段中間會自動回覆此信息</string>
+    <string name="quiet_hours_auto_sms_null">[系統自動回覆] 我會儘快回覆你.</string>
+    <string name="quiet_hours_auto_disabled">禁用</string>
+    <string name="quiet_hours_auto_enabled">所有號碼</string>
+    <string name="quiet_hours_auto_contacts">已知聯絡人</string>
+    <string name="quiet_hours_bypass_group">無視免打擾時段條件</string>
+    <string name="quiet_hours_sms_code_null">[鬧鐘]</string>
+    <string name="quiet_hours_sms_bypass_title">信息</string>
+    <string name="quiet_hours_sms_code_title">文字信息內容過濾</string>
+    <string name="quiet_hours_sms_code_explain">若文字信息包含這些字元時則發出提示音</string>
+    <string name="quiet_hours_call_bypass_title">來電數目</string>
+    <string name="quiet_hours_calls_required_title">30分鐘內相同號碼來電數目</string>
+    <string name="quiet_hours_calls_required_summary">達到" 通電話時候則除消免打擾模式"</string>
+    <string name="quiet_hours_bypass_ringtone_title">播放鈴聲</string>
+    <string name="quiet_hours_bypass_ringtone_loop_title">循環播放鈴聲</string>
+    <string name="quiet_hours_bypass_ringtone_loop_summary_on">鈴聲會循環播放直到取消為止</string>
+    <string name="quiet_hours_bypass_ringtone_loop_summary_off">鈴聲只會播放一次</string>
+    <string name="quiet_hours_alarm_dismiss">取消鬧鐘</string>
+    <string name="quiet_hours_alarm_and">" 及 "</string>
+    <string name="quiet_hours_alarm_dialog_title">免打擾模式已取消</string>
+    <string name="quiet_hours_alarm_message">" 已滿足取消免打擾模式條件!"</string>
+
+    <string name="lock_numpad_random_title">PIN鍵盤洗牌排序</string>
+    <string name="lock_numpad_random_dialog_title">PIN鍵盤洗牌亂數方式排序</string>
+    <string name="lock_numpad_random_off">關閉</string>
+    <string name="lock_numpad_random_always">永遠改變</string>
+    <string name="lock_numpad_random_on_request">按需要</string>
+
 </resources>
