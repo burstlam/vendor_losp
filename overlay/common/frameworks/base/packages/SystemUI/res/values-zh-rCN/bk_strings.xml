@@ -37,4 +37,25 @@
     <string name="content_setup_instructions">长按右边的项目并拖拽到侧边栏以添加项目.\n\n将项目拖拽到任何已有的项目之上，可以创建文件夹.\n\n要删除，只需简单的将项目拖拽出侧边栏即可.</string>
     <string name="content_setup_dismiss">继续</string>
 
+    <!-- Recents Ram Bar -->
+    <string name="memory">运行内存</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of background processes -->
+    <string name="service_free_mem"><xliff:g id="memory">%1$s</xliff:g> 可用</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of foreground processes -->
+    <string name="service_used_mem"><xliff:g id="memory">%1$s</xliff:g> 已用</string>
+
+    <!-- Screenrecord Notification Ticker -->
+    <string name="screenrecord_notif_ticker">捕获屏幕中</string>
+
+    <!-- Screenrecord notification title -->
+    <string name="screenrecord_notif_title">捕获屏幕</string>
+
+    <!-- Screenrecord notification action: Stop -->
+    <string name="screenrecord_notif_stop">停止</string>
+
+    <!-- Screenrecord notification action: Toggle pointer -->
+    <string name="screenrecord_notif_pointer">显示指针</string>
+
+    <!-- Screen record notification error title -->
+    <string name="screenrecord_notif_error">不能捕获屏幕</string>
 </resources>

@@ -43,4 +43,7 @@
     <string name="permdesc_changePrivacyGuardState">允許應用變更是否另一個應用可與隱私衛士執行。當一個應用與隱私衛士執行時，它將無法存取任何個人隱私資料，例如：聯繫人、通話記錄或短信。</string>
     <string name="privacy_guard_notification">隱私衛士已啟用</string>
     <string name="privacy_guard_notification_detail">“<xliff:g id="app">%1$s</xliff:g>”將無法存取個人隱私資料</string>
+
+    <string name="permlab_interceptSmsSent">攔截傳出的短信</string>
+    <string name="permdesc_interceptSmsSent">允許應用攔截傳出的短信。惡意應用可使用此許可權來阻擋傳出短信。</string>
 </resources>

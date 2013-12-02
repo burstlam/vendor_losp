@@ -184,7 +184,7 @@
 
     <!-- Sound settings screen Slim-->
     <string name="sound_title">音效设置</string>
-    <string name="advanced_sound_title">Advanced options</string>
+    <string name="advanced_sound_title">高级设置</string>
     <string name="notifications_category_title">通知</string>
     <string name="volbtn_music_controls_title">音量键音乐控制</string>
     <string name="volbtn_music_controls_summary">锁屏时长按音量键控制音乐曲目</string>
@@ -253,6 +253,16 @@
     <string name="root_access_apps">仅应用</string>
     <string name="root_access_adb">仅ADB</string>
     <string name="root_access_all">应用和ADB</string>
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">USB调试通知</string>
+    <string name="adb_notify_summary">当USB调试连接时显示通知</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">网络ADB调试</string>
+    <string name="adb_over_network_summary">启用通过网络的 TCP/IP 调试 (Wi-Fi, USB 网络). 重启时此选项自动关闭</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告：网络 ADB 调试启用后,您的设备将会在已连接的网络(包括 GSM 数据网络)上被视为是开放的,并且有可能被侵入!\n\n请仅在您所信任的网络上使用此功能.\n\n您确实要启用该功能吗?</string>
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">自动亮度调节</string>
@@ -546,8 +556,8 @@
     <string name="navigation_bar_width_summary">横向显示时导航栏宽度.</string>
     <string name="navbar_can_move">横向显示</string>
     <string name="navbar_can_move_summary">横向显示时导航栏放在下方</string>
-    <string name="navbar_style_dimen_title"></string>
-    <string name="navbar_button_title">按键尺寸</string>
+    <string name="navbar_style_dimen_title">按键尺寸</string>
+    <string name="navbar_button_title">按键分配</string>
     <string name="navbar_targets_title">导航环目标</string>
     <string name="navbar_cat">导航栏</string>
     <string name="navbar_dimensions_reset_message">重置所有尺寸?</string>
@@ -819,6 +829,12 @@
     <string name="lockscreen_use_widget_container_carousel_summary">在锁屏页面间切换时使用立体的锁屏动画</string>
 
     <!-- Lock Gesture settings -->
+    <string name="unlock_set_unlock_gesture_title">手势</string>
+    <string name="unlock_set_unlock_gesture_summary">实验性，安全性较低</string>
+    <string name="unlock_set_unlock_mode_gesture">手势</string>
+    <string name="lockpassword_choose_your_gesture_header">绘画您的手势</string>
+    <string name="lockpassword_confirm_your_gesture_header">确认您的手势</string>
+    <string name="lockpassword_gesture_set_toast">已设置好手势解锁</string>
     <string name="lockgesture_change_lock_pattern_label">更改解锁手势</string>
     <string name="lockgesture_change_lock_pin_label">更改解锁 PIN</string>
     <string name="lockgesture_need_to_unlock">确认已保存的手势</string>
@@ -844,4 +860,70 @@
     <string name="lockgesture_too_many_failed_confirmation_attempts_header">错误的尝试次数过多！</string>
     <string name="lockgesture_too_many_failed_confirmation_attempts_footer"><xliff:g id="NUMBER">%d</xliff:g> 秒后重试。</string>
 
+    <!-- Recents clear all -->
+    <string name="recent_panel_category_title" >最近任务面板</string>
+    <string name="show_recent_clear_all_button_title">新增一键清除按键</string>
+    <string name="show_recent_clear_all_button_summary">勾选在最近任务页面显示新增清除按键</string>
+    <string name="recent_clear_all_button_location_title">按键位置</string>
+    <string name="recent_clear_all_button_location_summary">选择清除键位置</string>
+    <string name="recent_clear_all_button_location_top_left">左上</string>
+    <string name="recent_clear_all_button_location_top_right">右上</string>
+    <string name="recent_clear_all_button_location_bottom_left">左下</string>
+    <string name="recent_clear_all_button_location_bottom_right">右下</string>
+
+    <!-- Swap volume buttons when the screen is rotated by 90 or 180 degrees -->
+    <string name="swap_volume_buttons_title">交换音量键</string>
+    <string name="swap_volume_buttons_summary">当屏幕旋转90度或180度时交换音量键</string>
+
+    <!-- Recents Ram Bar -->
+    <string name="ram_bar">最近任务界面RAM条</string>
+    <string name="ram_bar_note_title">注意</string>
+    <string name="ram_bar_note_summary">此RAM条显示确切的android内存(RAM)使用情况.请注意使用缓冲区应用能帮助您的设备更快地打开应用.要查看更多关于android内存管理机制的工作方式的解释内容,请查看帮助菜单.</string>
+    <string name="ram_bar_mode_title">RAM条模式</string>
+    <string name="ram_bar_mode_dialog_title">RAM条显示的数据</string>
+    <string name="ram_bar_none">无</string>
+    <string name="ram_bar_apps">应用程序</string>
+    <string name="ram_bar_cache">应用程序和缓冲区</string>
+    <string name="ram_bar_other">应用程序, 缓冲区及其它</string>
+    <string name="ram_bar_style_cat">RAM条风格</string>
+    <string name="ram_bar_color_app_mem_color">应用程序部分RAM条色彩</string>
+    <string name="ram_bar_color_cache_mem_color">缓冲区部分RAM条色彩</string>
+    <string name="ram_bar_color_total_mem_color">其它部分RAM条色彩</string>
+    <string name="ram_bar_color_enabled">启用</string>
+    <string name="ram_bar_color_disabled">禁用</string>
+    <string name="ram_bar_button_help">帮助</string>
+    <string name="ram_bar_button_reset">重置色彩</string>
+
+    <!-- Notification drawer background -->
+    <string name="notification_style_title">通知栏风格</string>
+    <string name="notification_style_summary">改变你的通知栏风格</string>
+    <string name="notification_wallpaper_title">通知栏后台</string>
+    <string name="notification_wallpaper_landscape_title">不同的横屏后台</string>
+    <string name="notification_background_color_fill">色彩填充</string>
+    <string name="notification_background_custom_image">自定影像</string>
+    <string name="notification_background_default_wallpaper">缺省壁纸</string>
+    <string name="notification_drawer_custom_background_dialog_title">选择色彩</string>
+    <string name="notif_wallpaper_alpha_title">壁纸透明度</string>
+    <string name="notif_alpha_title">壁纸透明度</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">通知音</string>
+    <string name="less_notification_sounds_title">减少频繁通知音</string>
+    <string name="less_notification_sounds_summary">限制每个应用程序的通知音响在一定周期内只能播放一次</string>
+    <string name="less_notification_sounds_default">默认值</string>
+    <string name="less_notification_sounds_3s">3 秒</string>
+    <string name="less_notification_sounds_5s">5 秒</string>
+    <string name="less_notification_sounds_10s">10 秒</string>
+    <string name="less_notification_sounds_15s">15 秒</string>
+    <string name="less_notification_sounds_30s">30 秒</string>
+    <string name="less_notification_sounds_45s">45 秒</string>
+    <string name="less_notification_sounds_1m">1 分钟</string>
+    <string name="less_notification_sounds_2m">2 分钟</string>
+    <string name="less_notification_sounds_5m">5 分钟</string>
+
+    <!-- Screen recorder
+    <string name="screen_recorder_title">屏幕捕获</string>
+    <string name="screen_recorder_summary">设置屏幕</string>
+    <string name="screen_recorder_video_dimensions_title">视频尺寸</string>
+    <string name="screen_recorder_video_bitrate_title">比特率</string> -->
 </resources>

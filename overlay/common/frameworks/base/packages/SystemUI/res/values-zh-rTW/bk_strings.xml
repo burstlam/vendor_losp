@@ -36,4 +36,26 @@
     <string name="toast_items_saved">側邊欄項目已保存.</string>
     <string name="content_setup_instructions">長按右邊的項目并拖拽到側邊欄以添加項目.\n\n將項目拖拽到任何已有的項目之上，可以建立文件夾.\n\n要刪除，只需簡單的將項目拖拽出側邊欄即可.</string>
     <string name="content_setup_dismiss">繼續</string>
+
+    <!-- Recents Ram Bar -->
+    <string name="memory">運行內存</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of background processes -->
+    <string name="service_free_mem"><xliff:g id="memory">%1$s</xliff:g> 可用</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of foreground processes -->
+    <string name="service_used_mem"><xliff:g id="memory">%1$s</xliff:g> 已用</string>
+
+    <!-- Screenrecord Notification Ticker -->
+    <string name="screenrecord_notif_ticker">擷取屏幕中</string>
+
+    <!-- Screenrecord notification title -->
+    <string name="screenrecord_notif_title">擷取屏幕</string>
+
+    <!-- Screenrecord notification action: Stop -->
+    <string name="screenrecord_notif_stop">停止</string>
+
+    <!-- Screenrecord notification action: Toggle pointer -->
+    <string name="screenrecord_notif_pointer">顯示指針</string>
+
+    <!-- Screen record notification error title -->
+    <string name="screenrecord_notif_error">無法擷取屏幕</string>
 </resources>

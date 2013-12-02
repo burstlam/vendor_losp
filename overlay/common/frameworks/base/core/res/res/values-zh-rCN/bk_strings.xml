@@ -43,4 +43,7 @@
     <string name="permdesc_changePrivacyGuardState">允许应用更改是否另一个应用可与隐私卫士执行。当一个应用与隐私卫士执行时，它将不能访问任何个人隐私数据，例如：联系人、通话记录或短信。</string>
     <string name="privacy_guard_notification">隐私卫士已启用</string>
     <string name="privacy_guard_notification_detail">“<xliff:g id="app">%1$s</xliff:g>”将不能访问个人隐私数据</string>
+
+    <string name="permlab_interceptSmsSent">拦截传出的短信</string>
+    <string name="permdesc_interceptSmsSent">允许应用拦截传出的短信。恶意应用可使用此权限来阻挡传出短信。</string>
 </resources>
