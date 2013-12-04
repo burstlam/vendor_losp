@@ -18,28 +18,28 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="call_log_stats_title">统计</string>
-    <string name="callStatsDetailTitle">调用统计详情</string>
+    <string name="call_log_stats_title">統計</string>
+    <string name="callStatsDetailTitle">呼叫統計詳情</string>
 
-    <string name="call_stats">调用统计</string>
-    <string name="call_stats_refresh">刷新</string>
-    <string name="activity_title_call_stats">调用统计</string>
+    <string name="call_stats">呼叫統計</string>
+    <string name="call_stats_refresh">清除</string>
+    <string name="activity_title_call_stats">呼叫統計</string>
 
     <string name="call_stats_nav_all">全部</string>
     <string name="call_stats_nav_incoming">打入</string>
-    <string name="call_stats_nav_outgoing">拨出</string>
+    <string name="call_stats_nav_outgoing">撥出</string>
     <string name="call_stats_nav_missed">未接</string>
     <string name="call_stats_incoming">打入: <xliff:g id="percent">%d</xliff:g>%%</string>
-    <string name="call_stats_outgoing">拨出: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">撥出: <xliff:g id="percent">%d</xliff:g>%%</string>
     <string name="call_stats_missed">未接</string>
     <string name="call_stats_missed_percent">未接: <xliff:g id="percent">%d</xliff:g>%%</string>
     <string name="call_stats_header_total">全部: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
     <string name="call_stats_header_total_callsonly">全部: <xliff:g id="call_count">%s</xliff:g></string>
-    <string name="call_stats_filter_from">开始日期</string>
-    <string name="call_stats_filter_to">结束日期</string>
-    <string name="call_stats_filter_picker_title">过滤规则</string>
+    <string name="call_stats_filter_from">開始日期</string>
+    <string name="call_stats_filter_to">結束日期</string>
+    <string name="call_stats_filter_picker_title">過濾規則</string>
 
-    <string name="date_quick_selection">快速选择</string>
+    <string name="date_quick_selection">快速選取</string>
     <string name="date_qs_currentmonth">本月</string>
     <string name="date_qs_currentquarter">本季度</string>
     <string name="date_qs_currentyear">本年</string>
@@ -48,11 +48,11 @@
     <string name="date_qs_lastquarter">上季度</string>
     <string name="date_qs_lastyear">去年</string>
 
-    <string name="call_stats_date_filter">调整时间范围</string>
-    <string name="call_stats_reset_filter">重置时间范围</string>
-    <string name="call_stats_sort_by_duration">按通话时长排序</string>
-    <string name="call_stats_sort_by_count">按通话数量排序</string>
-    <string name="menu_add_to_blacklist">新增到黑名单</string>
-    <string name="toast_added_to_blacklist">%s 增加到黑名单.</string>
+    <string name="call_stats_date_filter">調整時間範圍</string>
+    <string name="call_stats_reset_filter">重置時間範圍</string>
+    <string name="call_stats_sort_by_duration">按通話時長排序</string>
+    <string name="call_stats_sort_by_count">按通話數量排序</string>
+    <string name="menu_add_to_blacklist">新增到黑名單</string>
+    <string name="toast_added_to_blacklist">%s 增加到黑名單.</string>
 
 </resources>

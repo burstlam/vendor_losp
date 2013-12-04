@@ -58,4 +58,44 @@
 
     <!-- Screen record notification error title -->
     <string name="screenrecord_notif_error">無法擷取屏幕</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_gps">GPS</string>
+    <string name="quick_settings_gps_off">GPS 關閉</string>
+    <string name="quick_settings_screen_sleep">休眠</string>
+    <string name="quick_settings_ringer_on">音效</string>
+    <string name="quick_settings_ringer_off">音效關閉</string>
+    <string name="quick_settings_vibration_on">振動</string>
+    <string name="quick_settings_vibration_off">振動關閉</string>
+    <string name="quick_settings_label_enabled">開啟</string>
+    <string name="quick_settings_label_disabled">關閉</string>
+    <string name="quick_settings_ringer_normal">鈴聲</string>
+    <string name="quick_settings_lockscreen">鎖屏</string>
+    <string name="quick_settings_network_type">網絡模式</string>
+    <string name="quick_settings_report_bug">錯誤報告</string>
+    <string name="quick_settings_sync">同步</string>
+    <string name="quick_settings_sync_off">同步關閉</string>
+    <string name="quick_settings_torch">手電筒</string>
+    <string name="quick_settings_torch_off">手電筒關閉</string>
+    <string name="quick_settings_nfc">NFC</string>
+    <string name="quick_settings_nfc_off">NFC 關閉</string>
+    <string name="quick_settings_screen_timeout">屏幕逾時</string>
+    <string name="quick_settings_screen_timeout_summary" translatable="false">%1$d %2$s</string>
+    <string name="quick_settings_screen_timeout_summary_never">永不</string>
+    <string name="quick_settings_usb_tether_off_label">沒有連接</string>
+    <string name="quick_settings_usb_tether_connected_label">綁定關閉</string>
+    <string name="quick_settings_usb_tether_on_label">已綁定</string>
+    <string name="quick_settings_wifiap">Wi-Fi AP</string>
+    <string name="quick_settings_wifiap_off">Wi-Fi AP 關閉</string>
+    <string name="quick_settings_quiethours">安靜時段</string>
+    <string name="quick_settings_quiethours_off">安靜時段關閉</string>
+    <string name="quick_settings_lte">LTE</string>
+    <string name="quick_settings_lte_off">LTE 關閉</string>
+    <string name="quick_settings_volume">音量</string>
+    <string name="quick_settings_expanded_desktop">全屏模式</string>
+    <string name="quick_settings_expanded_desktop_off">正常顯常</string>
+    <string name="quick_settings_music_play">播放</string>
+    <string name="quick_settings_music_pause">暫停</string>
+    <string name="quick_settings_reboot_recovery">刷機模式</string>
+    <string name="quick_settings_reboot">重啟</string>
 </resources>
