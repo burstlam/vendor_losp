@@ -941,8 +941,10 @@
     <string name="animation_duration_default">默认</string>
 
     <!-- Quick Settings -->
+    <string name="notification_drawer_qs_title">通知栏及快速设置</string>
+    <string name="add">增加</string>
     <string name="quick_settings_title">快速设置</string>
-    <string name="tile_picker_title">小部件和布局</string>
+    <string name="tile_picker_title">磁贴布局</string>
     <string name="tile_picker_summary">查看，选择或改变显示小部件的布局</string>
     <string name="tile_choose_title">选择一个小部件</string>
 

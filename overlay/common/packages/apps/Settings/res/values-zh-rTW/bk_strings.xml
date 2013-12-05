@@ -898,6 +898,8 @@
     <string name="ram_bar_button_reset">重置色彩</string>
 
     <!-- Notification drawer background -->
+    <string name="notification_drawer_qs_title">通知欄及快速設定</string>
+    <string name="add">增加</string>
     <string name="notification_style_title">通知欄風格</string>
     <string name="notification_style_summary">改變你的通知欄風格</string>
     <string name="notification_wallpaper_title">通知欄背景</string>
@@ -943,7 +945,7 @@
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">快速設定</string>
-    <string name="tile_picker_title">小工具和佈局</string>
+    <string name="tile_picker_title">磁貼佈局</string>
     <string name="tile_picker_summary">檢視，選取或改變顯示小工具的佈局</string>
     <string name="tile_choose_title">選取一個小工具</string>
 

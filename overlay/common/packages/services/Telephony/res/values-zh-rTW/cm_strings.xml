@@ -71,4 +71,13 @@
     <string name="smsc_refresh">清除</string>
     <string name="smsc_update">更新</string>
 
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">改變模式 (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">切換(2G/3G)模式，3G比較快，但耗電也比較多.</string>
+
+    <!-- Non-Intrusive InCall UI -->
+    <string name="preference_category_interface">通話界面</string>
+    <string name="non_intrusive_incall_title">非侵入式顯示</string>
+    <string name="non_intrusive_incall_summary">使用非侵入／叠加方式顯示通話界面</string>
+
 </resources>

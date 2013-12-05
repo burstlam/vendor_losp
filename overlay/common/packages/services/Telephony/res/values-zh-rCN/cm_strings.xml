@@ -57,4 +57,13 @@
     <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 已拒绝</string>
     <string name="unblock_number">解禁</string>
 
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">改变模式 (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">切换(2G/3G)模式，3G比较快，但耗电也比较多.</string>
+
+    <!-- Non-Intrusive InCall UI -->
+    <string name="preference_category_interface">通话界面</string>
+    <string name="non_intrusive_incall_title">非侵入式显示</string>
+    <string name="non_intrusive_incall_summary">使用非侵入／叠加方式显示通话界面</string>
+
 </resources>
