@@ -63,7 +63,7 @@
 
     <!-- Non-Intrusive InCall UI -->
     <string name="preference_category_interface">通话界面</string>
-    <string name="non_intrusive_incall_title">非侵入式显示</string>
-    <string name="non_intrusive_incall_summary">使用非侵入／叠加方式显示通话界面</string>
+    <string name="non_intrusive_incall_title">简约模式</string>
+    <string name="non_intrusive_incall_summary">在屏幕下方显示一个简约接听通话界面</string>
 
 </resources>
