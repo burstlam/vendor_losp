@@ -998,6 +998,9 @@
     <string name="sound_mode_vibrate">振动</string>
     <string name="sound_mode_sound">铃声</string>
     <string name="sound_mode_soundVibrate">铃声 +&amp; 振动</string>
+    <string name="pref_music_mode_title">播放器模式</string>
+    <string name="music_tile_mode_background">显示专辑封面</string>
+    <string name="music_tile_mode_tracktitle">显示音轨名称</string>
 
     <!-- QuickSettings: Quick Pulldown -->
     <string name="title_quick_pulldown">快速下拉</string>
@@ -1005,6 +1008,21 @@
     <string name="quick_pulldown_off">关闭</string>
     <string name="quick_pulldown_left">左边</string>
     <string name="quick_pulldown_right">右边</string>
+
+    <!-- Lockscreen style settings -->
+    <string name="lockscreen_style_reset_message">重置锁屏色彩设置?</string>
+    <string name="lockscreen_icon_title">解锁图示</string>
+    <string name="lockscreen_lock_icon_custom">自定义图示</string>
+    <string name="lockscreen_lock_icon_default">默认图示</string>
+    <string name="lockscreen_colorize_handle_title">解锁图示著色</string>
+    <string name="lockscreen_colorize_handle_summary">锁头图案将以自定义色彩著色</string>
+    <string name="lockscreen_style_title">主题风格</string>
+    <string name="lockscreen_frame_color_title">轮廓颜色</string>
+    <string name="lockscreen_frame_color_summary">小工具及解锁框著色</string>
+    <string name="lockscreen_lock_color_title">锁图示色彩</string>
+    <string name="lockscreen_lock_color_summary">锁拖把色彩</string>
+    <string name="lockscreen_dots_color_title">PIN矩阵点色彩</string>
+    <string name="lockscreen_dots_color_summary">发光区点色彩</string>
 
     <!-- Gesture Anywhere
     <string name="gesture_anywhere_title">任意手势</string>
