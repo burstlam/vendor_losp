@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="save_preset">保存設定檔</string>
+    <string name="load_preset">載入設定檔</string>
+    <string name="new_preset">新增設定檔</string>
+    <string name="pref_effect_freq_title">選擇低音中央音頻</string>
+    <string name="pref_headset_stereowide_title">立體聲音場擴展</string>
+    <string name="pref_headset_stereowide_summary_on">立體聲音場擴展已啟用</string>
+    <string name="pref_headset_stereowide_summary_off">立體聲音場擴展已關閉</string>
+    <string name="pref_headset_stereowide_enable">啟用</string>
+    <string name="dialog_stereo">立體聲音場擴展</string>
+</resources>

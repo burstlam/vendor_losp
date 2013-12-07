@@ -165,9 +165,9 @@
     <string name="clock_date_display_none">隐藏</string>
     <string name="clock_date_display_small">缩小字体</string>
     <string name="clock_date_display_normal">正常</string>
-    <string name="clockdate_style_normal">正常</string>
-    <string name="clockdate_style_lowercase">小楷</string>
-    <string name="clockdate_style_uppercase">大楷</string>
+    <string name="clock_date_style_normal">正常</string>
+    <string name="clock_date_style_lowercase">小楷</string>
+    <string name="clock_date_style_uppercase">大楷</string>
     <string name="custom_java_format">自定义Java符串</string>
     <string name="status_bar_toggle_brightness">亮度控制</string>
     <string name="status_bar_toggle_brightness_summary">状态栏上左右滑动来控制亮度</string>
@@ -566,10 +566,10 @@
 
     <!-- Navigation bar button style -->
     <string name="nav_bar_button_style">导航栏按键式样设置</string>
-    <string name="nav_bar_button_style_summary">Change navigation bar button colors</string>
-    <string name="button_transparency_title">Button transparency</string>
-    <string name="nav_button_color_mode_summary">Change the navigation bar button color mode</string>
-    <string name="navigation_bar_glow_tint_title">Glow color</string>
+    <string name="nav_bar_button_style_summary">变更按键色彩</string>
+    <string name="button_transparency_title">按键透明度</string>
+    <string name="nav_button_color_mode_summary">变更导航栏的色彩设置</string>
+    <string name="navigation_bar_glow_tint_title">发光色彩</string>
 
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">引导时媒体扫描器行为</string>
