@@ -27,4 +27,30 @@
     <string name="pref_headset_stereowide_summary_off">立体声音场扩展已关闭</string>
     <string name="pref_headset_stereowide_enable">启用</string>
     <string name="dialog_stereo">立体声音场扩展</string>
+
+   <!-- Sound Control -->
+    <string name="soundcontrol_title">音量控制台</string>
+
+    <!-- Preferences -->
+    <string name="pref_soundcontrol_presets_title">预设</string>
+    <string name="pref_soundcontrol_headphone_gain_title">耳机增强</string>
+    <string name="pref_soundcontrol_headphone_poweramp_gain_title">耳机扩音增强</string>
+    <string name="pref_soundcontrol_microphone_gain_title">麦克风增强</string>
+    <string name="pref_soundcontrol_speaker_gain_title">扬声器增强</string>
+    <string name="pref_soundcontrol_headphone_gain_left">耳机 (左)</string>
+    <string name="pref_soundcontrol_headphone_gain_right">耳机 (右)</string>
+    <string name="pref_soundcontrol_headphone_poweramp_gain_left">耳机扩音 (左)</string>
+    <string name="pref_soundcontrol_headphone_poweramp_gain_right">耳机扩音 (右)</string>
+    <string name="pref_soundcontrol_microphone_handset_gain_title">手机麦克风</string>
+    <string name="pref_soundcontrol_microphone_camcorder_gain_title">摄像机麦克风</string>
+
+    <string name="sc_version_title">音量控制台</string>
+    <string name="sc_version_summary">音量控制台 | %s</string>
+    <string name="sc_preset_summary">选择载入一个设定档</string>
+    <string name="sc_preset_loaded">设定档 \"%s\" 已载入!</string>
+    <string name="sc_preset_quality">质量</string>
+    <string name="sc_preset_loudness">响度</string>
+    <string name="sc_preset_quiet">幽静</string>
+    <string name="sc_preset_stock">系统默认</string>
+    <string name="sc_value_changed">请先停止并重新播放套用新设定值</string>
 </resources>

@@ -663,6 +663,16 @@
     <string name="ad_timeout_15s">15 秒</string>
     <string name="ad_timeout_25s">25 秒</string>
 
+    <string name="ad_threshold_title">距离传感器感应距间</string>
+    <string name="ad_turnoff_mode_title">关闭屏幕</string>
+    <string name="ad_turnoff_mode_summary">当使用动态提示时，没有任何操作后再次放回口袋中便重新关闭屏幕.</string>
+<string name="ad_threshold_0s">立即</string>
+    <string name="ad_threshold_1s">1 秒</string>
+    <string name="ad_threshold_2s">2 秒</string>
+    <string name="ad_threshold_3s">3 秒</string>
+    <string name="ad_threshold_4s">4 秒</string>
+    <string name="ad_threshold_5s">5 秒</string>
+
     <!-- Statusbar netstat -->
     <string name="status_bar_network_title">网速显示</string>
     <string name="status_bar_show_network_stats_title">显示连接速度</string>
