@@ -16,7 +16,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Disable excessive dalvik debug messages
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.debug.alloc=0
+    dalvik.vm.debug.alloc=0 \
+    dalvik.vm.dexopt-data-only=1
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
