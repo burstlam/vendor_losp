@@ -44,7 +44,7 @@
     <string name="pref_soundcontrol_microphone_handset_gain_title">手机麦克风</string>
     <string name="pref_soundcontrol_microphone_camcorder_gain_title">摄像机麦克风</string>
 
-    <string name="sc_version_title">音量控制台</string>
+    <!--<string name="sc_version_title">音量控制台</string>
     <string name="sc_version_summary">音量控制台 | %s</string>
     <string name="sc_preset_summary">选择载入一个设定档</string>
     <string name="sc_preset_loaded">设定档 \"%s\" 已载入!</string>
@@ -52,5 +52,5 @@
     <string name="sc_preset_loudness">响度</string>
     <string name="sc_preset_quiet">幽静</string>
     <string name="sc_preset_stock">系统默认</string>
-    <string name="sc_value_changed">请先停止并重新播放套用新设定值</string>
+    <string name="sc_value_changed">请先停止并重新播放套用新设定值</string>-->
 </resources>

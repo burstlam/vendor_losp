@@ -117,8 +117,6 @@
     <string name="privacy_guard_manager_summary">管理哪些应用可以访问您的个人数据</string>
     <string name="privacy_guard_no_user_apps">没有安装任何应用</string>
     <string name="privacy_guard_filter_does_not_match">没有安装含有相关敏感权限的应用</string>
-    <string name="privacy_guard_help_title">帮助</string>
-    <string name="privacy_guard_reset_title">重置</string>
     <string name="privacy_guard_help_text">在此屏幕中,只要轻点一下,您就可以选择哪些应用应该启用隐私保护,选择的应用将不能再访问您的个人数据,如联系人,信息或者通话记录.长按其中一条项目查看该应用的详细信息.\n\n缺省情况下内置应用将不会被显示.如果您要显示他们或者要过滤出通过对应权限要求访问个人数据的应用,请在菜单中调整其各自的设置.</string>
     <string name="privacy_guard_manager_show_system_apps">显示内置应用</string>
     <string name="privacy_guard_manager_filter_permissions">权限过滤器</string>
@@ -289,7 +287,6 @@
     <string name="auto_brightness_menu_remove">删除</string>
     <string name="auto_brightness_preview">预览</string>
     <string name="auto_brightness_preview_dialog_title">亮度曲线预览</string>
-    <string name="auto_brightness_help_dialog_title">帮助</string>
     <string name="auto_brightness_help_text"><b>亮度如何计算?</b>
 \n\n
 亮度曲线是在给定的<i>控制点数量</i>上通过<i>三次样条插值</i>算法计算的。. 这不是一个“水桶型”计算，屏幕亮度将保持不变，为环境亮度.这样一来，环境亮度的小变化不会导致屏幕亮度的巨大变化; 但是，控制点的改变导致的后果有点难以预测.\n
@@ -410,7 +407,6 @@
     <string name="shortcut_action_help_icon">, 选择图示时会触发自定义设置</string>
     <string name="shortcut_action_help_main">新增 %1$s时, 选择新增图示.  当图示 %1$s 成功新增, 选定行将改变目标%2$s\n\n欲删除 %1$s, 向左或右方滑动删除.  重置 %1$s 清单排序则拖动左方手把调整.\n\n清除或重置请按重置图示.</string>
     <string name="shortcut_action_help_delete_last_entry">删除 %1$s 清单上所有目标将关闭此功能.</string>
-    <string name="shortcut_action_help">协助</string>
 
     <string name="icon_picker_type">选择图像类型:</string>
     <string name="icon_default">缺省</string>
@@ -580,8 +576,6 @@
     <!-- Quiet hours -->
     <string name="quiet_hours_title">安静时段</string>
     <string name="quiet_hours_summary">设置设备应当保持安静的时段</string>
-    <string name="quiet_hours_note_title">注意</string>
-    <string name="quiet_hours_note_summary">安静时段不影响来电</string>
     <string name="quiet_hours_enabled">启用安静时段</string>
     <string name="quiet_hours_enabled_on">安静时段将强制执行</string>
     <string name="quiet_hours_enabled_off">通知不受影响</string>
@@ -589,6 +583,9 @@
     <string name="quiet_hours_start_summary">何时开始强制安静时段</string>
     <string name="quiet_hours_end">结束安静时间</string>
     <string name="quiet_hours_end_summary">何时结束安静时段</string>
+    <string name="quiet_hours_ringer_title">铃声静音</string>
+    <string name="quiet_hours_ringer_on">铃声不会播放</string>
+    <string name="quiet_hours_ringer_off">铃声会正常播放</string>
     <string name="quiet_hours_mute">静音通知</string>
     <string name="quiet_hours_mute_on">没有音响会被播放</string>
     <string name="quiet_hours_mute_off">音响将正常播放</string>
@@ -985,6 +982,9 @@
     <string name="title_tile_music">音乐</string>
     <string name="title_tile_reboot">重启</string>
     <string name="tiles_reset_message">重置磁贴风格及内容到初始设置?</string>
+    <string name="disable_qs">禁用快速设定</string>
+    <string name="disable_qs_message">所有磁贴已移除.快速设定已禁用\n\n如希望重新启动请新增一个磁贴.</string>
+    <string name="help_qs_message">想新增磁贴开关, 请按新增图示并选择磁贴. 如欲变更排序, 长按需要变更磁贴然后拖动到变更位置。如欲删除磁贴，长按并拖到删除键位\n\n取消则把所有磁贴移除.</string>
 
     <!-- QuickSettings style options -->
     <string name="quicksettings_tiles_style">快速设置风格</string>
@@ -1023,6 +1023,7 @@
     <string name="lockscreen_style_reset_message">重置锁屏色彩设置?</string>
     <string name="lockscreen_icon_title">解锁图示</string>
     <string name="lockscreen_lock_icon_custom">自定义图示</string>
+    <string name="lockscreen_lock_icon_slim">Slim 图示</string>
     <string name="lockscreen_lock_icon_default">默认图示</string>
     <string name="lockscreen_colorize_handle_title">解锁图示著色</string>
     <string name="lockscreen_colorize_handle_summary">锁头图案将以自定义色彩著色</string>

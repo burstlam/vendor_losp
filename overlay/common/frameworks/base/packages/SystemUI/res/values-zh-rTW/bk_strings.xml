@@ -19,6 +19,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- App sidebar -->
+    <string name="default_folder_text">文件夾</string>
+    <string name="title_activity_sidebar_configuration">側邊欄內容設置</string>
+    <string name="action_save">保存</string>
+    <string name="toast_items_saved">側邊欄項目已保存.</string>
+    <string name="content_setup_instructions">長按右邊的項目并拖拽到側邊欄以添加項目.\n\n將項目拖拽到任何已有的項目之上，可以建立文件夾.\n\n要刪除，只需簡單的將項目拖拽出側邊欄即可.</string>
+    <string name="content_setup_dismiss">繼續</string>
+
     <!-- QS Battery Tile -->
     <string name="quick_settings_battery_charging">充電中</string>
     <string name="quick_settings_battery_discharging">放電中</string>
